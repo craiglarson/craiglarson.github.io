@@ -16,6 +16,7 @@ header {
 }
 
 header h1 {
+    font-family: "Graduate", "Roboto Condensed", sans-serif;
     color: white;
     display: inline;  
 }
@@ -28,8 +29,10 @@ img {
 }
 
 main h2 {
+    font-family: "Graduate", "Roboto Condensed", sans-serif;
     margin: 20px;
     border-bottom: 1px solid #00471B;
+    color: #F9A01B;
 }
 
 
