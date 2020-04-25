@@ -35,6 +35,9 @@ main h2 {
     color: #F9A01B;
 }
 
+main a:hover { 
+    color: #F9A01B;
+}
 
 footer {
     background-color: #00471B;
@@ -45,5 +48,13 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+footer p a {
+    color: #F9A01B;
+}
+
+footer p a:hover {
+    color: blue;
 }
 
