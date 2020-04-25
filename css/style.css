@@ -26,6 +26,8 @@ img {
     overflow: hidden;
     margin: 10px;
     box-shadow: 5px 5px 5px #999;
+    max-width: 100%;
+    height: auto;
 }
 
 main h2 {
