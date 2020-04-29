@@ -18,10 +18,12 @@ header h1 {
     font-family: "Graduate", "Roboto Condensed", sans-serif;
     color: white;
     font-size: 1.5em; 
+    text-align: center;
 }
 
 header img {
-    margin: 10px;
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
     height: auto;
 }
