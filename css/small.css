@@ -12,21 +12,16 @@ body {
 header {
     background-color: #002B5C;
     padding: 10px 0 10px 50px;
-    border-radius: 7.5px 7.5px 0 0;
 }
 
 header h1 {
     font-family: "Graduate", "Roboto Condensed", sans-serif;
     color: white;
-    display: inline;
     font-size: 1.5em; 
 }
 
-img {
-    float: right;
-    overflow: hidden;
+header img {
     margin: 10px;
-    box-shadow: 5px 5px 5px #999;
     max-width: 100%;
     height: auto;
 }
@@ -47,7 +42,6 @@ footer {
     background-color: #00471B;
     color: #F9A01B;
     padding: 5px;
-    border-radius: 0 0 7.5px 7.5px;
 }
 
 footer p {
