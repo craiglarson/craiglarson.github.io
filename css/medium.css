@@ -1,6 +1,11 @@
 @media only screen and (min-width: 32.5em) {
+    body {
+        border-radius: 10px;
+    }
+    
     header h1 {
         font-size: 2.5em;
+        text-align: left;
     }
 
     main h2 {
@@ -20,6 +25,7 @@
         overflow: hidden;
         box-shadow: 5px 5px 5px #999;
         margin: 10px;
+        border: none;
     }
 
 

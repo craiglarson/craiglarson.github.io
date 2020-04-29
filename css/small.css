@@ -5,19 +5,17 @@ body {
     font-family: "Roboto Condensed", sans-serif;
     border-top: 5px solid #F9A01B;
     border-bottom: 5px solid #F9A01B;
-    border-radius: 10px;
-    
-}
+    }
 
 header {
     background-color: #002B5C;
-    padding: 10px 0 10px 50px;
+    padding: 10px 0 10px 20px;
 }
 
 header h1 {
     font-family: "Graduate", "Roboto Condensed", sans-serif;
     color: white;
-    font-size: 1.5em; 
+    font-size: 1.75em; 
     text-align: center;
 }
 
@@ -26,6 +24,7 @@ header img {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+    border: 5px double #F9A01B;
 }
 
 main h2 {
@@ -47,8 +46,9 @@ footer {
 }
 
 footer p {
-    text-align: center;
+    text-align: left;
     margin-bottom: 6px;
+    margin-left: 20px;
 }
 
 footer p:nth-child(2) {
