@@ -1,21 +1,22 @@
 body {
-    max-width: 85%;
+    max-width: 75%;
     margin: 0 auto;
     font-family: "Ubuntu", Helvetica, sans-serif;
 }
 
 header {
-    background-color: #0033A0;
-    color: rgb(240, 240, 240);
-    border: 10px double rgb(214, 67, 9);
+    /*background-color: #0033A0;*/
+    background-color: #FF00F0;
+    color: #F0FF00;
+    border: 7.5px double #00F0FF;
     margin-bottom: 10px;
-    text-align: center;
-}
+    }
 
 h1, h3 {
-    font-family: "Graduate", "Ubuntu", sans-serif;  
+    font-family: "Fugaz One", sans-serif;  
     padding-left: 10px;
-    margin: 5px 0;  
+    margin: 5px 0;
+    text-align: center;  
 }
 
 main {
@@ -26,14 +27,27 @@ main {
 }
 
 section {
-    text-align: center;
     background-color: rgb(240, 240, 240);
+    border: 5px double #00F0FF;
 }
 
 .section-heading {
-    background-color: rgb(214, 67, 9);
-    color: rgb(240, 240, 240);
+    background-color: #F0FF00;
+    color: #FF00F0;
     margin: 0;
     padding: 10px;
-    font-family: "Graduate", "Ubuntu", sans-serif;
+    font-family: "Fugaz One" sans-serif;
+    text-align: center;
+}
+
+p {
+    padding: 10px;
+}
+
+a {
+    padding: 10px;
+}
+
+a:hover {
+    color: rgb(214, 67, 9);
 }
