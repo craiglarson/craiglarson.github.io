@@ -1,0 +1,12 @@
+@media (min-width: 580px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    #section3 {
+        grid-column: 1 / 3;
+    }
+
+}
