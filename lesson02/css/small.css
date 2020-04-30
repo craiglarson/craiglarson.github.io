@@ -5,18 +5,22 @@ body {
 }
 
 header {
-    /*background-color: #0033A0;*/
-    background-color: #FF00F0;
-    color: #F0FF00;
-    border: 7.5px double #00F0FF;
     margin-bottom: 10px;
     }
 
-h1, h3 {
+header h1 {
     font-family: "Fugaz One", sans-serif;  
     padding-left: 10px;
     margin: 5px 0;
-    text-align: center;  
+    text-align: left;  
+    color: #ff6737;
+}
+
+header h3 {
+    font-family: "Fugaz One", sans-serif;
+    margin: 5px 0;
+    color: #474A52;
+    padding-left: 10px;
 }
 
 main {
@@ -28,20 +32,32 @@ main {
 
 section {
     background-color: rgb(240, 240, 240);
-    border: 5px double #00F0FF;
+    border-radius: 10px 10px 10px 10px;
 }
 
-.section-heading {
-    background-color: #F0FF00;
-    color: #FF00F0;
-    margin: 0;
+main h3 {
+    background-color: #474A52;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
     padding: 10px;
-    font-family: "Fugaz One" sans-serif;
-    text-align: center;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
 }
 
+img {
+    display: block;
+    margin: 16px auto;
+    box-shadow: 5px 5px 10px #474A52;
+}
 p {
     padding: 10px;
+}
+
+main p:last-child {
+    background-color: #474A52;
+    color: white;
+    margin-bottom: 0;
+    border-radius: 0 0 10px 10px;
 }
 
 a {
