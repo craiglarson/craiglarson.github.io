@@ -57,11 +57,12 @@ p {
 }
 
 main p:last-child {
-    background-color: #474A52;
-    color: white;
+    color: #474A52;
+    background-color: rgb(219, 219, 219);
+    border-bottom: 5px solid #474A52;
+    border-top: 5px solid #474A52;
     padding-left: 10px;
     padding-right: 10px;
-    line-height: 1.5em;
 }
 
 a {
