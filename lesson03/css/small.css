@@ -5,8 +5,9 @@ body {
 }
 
 nav {
-    background-color: navy;
+    background-color: #175676;
     text-align: center;
+    border-bottom: 5px solid #C83E4D;
 }
 
 nav ul {
@@ -45,11 +46,33 @@ h1, h2, h3, h4, h5, h6 {
 
 table, tr, td, th {
     border: 1px solid black;
+    padding: 5px;
 }
+
+.color_blue {
+    background-color: #175676;
+    color: white;
+}
+
+.color_red {
+    background-color: #C83E4D;
+    color: white;
+}
+
+.light_blue {
+    background-color: #CCE6F4;
+}
+
+.medium_blue {
+    background-color: #4BA3C3;
+}
+
 footer {
-    background-color: navy;
+    background-color: #175676;
     color: #fff;
     text-align: left;
+    border-top: 5px solid #C83E4D;
+    margin-top: 10px;
 }
 
 footer p:first-child {
