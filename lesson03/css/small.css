@@ -4,10 +4,21 @@ body {
     font-family: 'Quicksand', Arial, sans-serif;
 }
 
+header {
+    background-color: #175676;
+}
+header h1 {
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+}
+
 nav {
     background-color: #175676;
     text-align: center;
     border-bottom: 5px solid #C83E4D;
+    border-top: 5px solid #C83E4D;
 }
 
 nav ul {
@@ -44,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Righteous', Arial, sans-serif;
 }
 
-h1 {
+main h1 {
     border-bottom: 2px solid #CCE6F4;
 }
 
