@@ -1,0 +1,19 @@
+@media only screen and (min-width: 35em) {
+    nav button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        margin-left: 2%;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+        text-align: left;
+    }
+
+    nav ul li a {
+        padding: .6em 1em;
+    }
+}
