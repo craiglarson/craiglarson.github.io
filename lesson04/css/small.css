@@ -1,30 +1,75 @@
 body {
-    font-family: "Quicksand", Verdana, sans-serif;
+    font-family: "Quicksilver", Verdana, sans-serif;
 }
 
-nav button {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-size: 1.6rem;
-}
-
-nav {
-    background-color: #175676;
-    border-bottom: 5px solid #C83E4D;
+header {
     font-family: "Righteous", Verdana, sans-serif;
+    background-color: #CCE6F4;
+    margin: 0 auto;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+header h1, header h4 {
     margin: 0;
+    text-align: center;
+}
+header img {
+    float: left;
 }
 
-nav ul li a {
-    display: block;
-    text-decoration: none;
-    color: #fff;
-    padding: .8em 2%;
-    
-}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  nav {
+      background-color: #175676;
+      font-family: "Righteous", Verdana, sans-serif;
+  }
+  
+  nav button {
+      background-color: transparent;
+      border: none;
+      margin: .2em 2%;
+      font-size: 1.5em;
+      color: #fff;
+  }
+
+  nav button:hover {
+      cursor: pointer;
+  }
+
+  nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  nav ul.hide {
+      display: none;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+      display: block;
+      padding: .8em 2%;
+      border-top: 1px solid #CCE6F4;
+      color: #fff;
+  }
+
+  nav ul li a:hover {
+      background-color: #CCE6F4;
+      color: #175676;
+  }
+
+  .content-box {
+      border: 1px dashed black;
+      background-color: lightgray;
+      margin: 10px;
+  }
+
+  footer {
+      background-color: #175676;
+      color: #fff;
+      text-align: center;
+  }
