@@ -76,19 +76,20 @@ header div h4 {
   }
 
 main {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
   .content-box {
       border: 1px dashed black;
       background-color: lightgray;
       margin: 10px;
+      padding: 20px;
   }
 
   footer {
       background-color: #175676;
       color: #fff;
       text-align: center;
-      max-width: 1200px;
+      max-width: 1250px;
       margin: 0 auto;
   }
