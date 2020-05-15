@@ -5,26 +5,40 @@ body {
 header {
     font-family: "Righteous", Verdana, sans-serif;
     background-color: #CCE6F4;
-    margin: 0 auto;
+    color: #175676;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
-header h1, header h4 {
-    margin: 0;
-    text-align: center;
-}
 header img {
-    float: left;
+    width: 75px;
+    height: 75px;
+    margin: 20px 0;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+header div h1 {
+    margin-bottom: 0;
+    font-size: 1.75em;
+}
 
-  nav {
+header div h4 {
+    margin-top: 0;
+    font-size: .9em;
+}
+
+
+    nav {
       background-color: #175676;
       font-family: "Righteous", Verdana, sans-serif;
+      
+      border-bottom: 3px solid #C83E4D;
   }
   
   nav button {
@@ -58,10 +72,13 @@ header img {
   }
 
   nav ul li a:hover {
-      background-color: #CCE6F4;
-      color: #175676;
+      background-color: #4BA3C3;
   }
 
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
   .content-box {
       border: 1px dashed black;
       background-color: lightgray;
@@ -72,4 +89,6 @@ header img {
       background-color: #175676;
       color: #fff;
       text-align: center;
+      max-width: 1200px;
+      margin: 0 auto;
   }
