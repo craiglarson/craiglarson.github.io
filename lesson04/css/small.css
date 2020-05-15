@@ -93,3 +93,18 @@ main {
       max-width: 1250px;
       margin: 0 auto;
   }
+
+ 
+ footer p {
+     margin-bottom: 5px;
+ }
+
+ footer p:first-child {
+     padding-top: 15px;
+ }
+
+ footer p:last-child {
+     padding-bottom: 15px;
+     font-size: .8em;
+ }
+  
