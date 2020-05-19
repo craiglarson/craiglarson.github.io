@@ -1,6 +1,6 @@
 @media only screen and (min-width: 900px) {
     header img {
-        width: 200px;
+        max-width: 200px;
         height: 200px;
     }
     
