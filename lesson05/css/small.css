@@ -80,6 +80,10 @@ header div h4 {
       background-color: #4BA3C3;
   }
 
+  nav ul li a.active {
+      color: yellow;
+  }
+
 main {
     max-width: 1100px;
     margin: 0 auto;
