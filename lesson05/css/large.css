@@ -1,0 +1,28 @@
+@media only screen and (min-width: 900px) {
+    header img {
+        max-width: 200px;
+        height: 200px;
+    }
+    
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        border: none;
+        border-right: 1px solid #CCE6F4;
+    }
+
+}
