@@ -177,7 +177,7 @@ article p.author {
     font-style: italic;
     font-size: .90em;
     margin-left: 10px;
-    top-margin: 0;
+    margin-top: 10px;
 }
 
 .content-box {
