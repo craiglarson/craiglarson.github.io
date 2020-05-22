@@ -6,6 +6,14 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Righteous", Verdana, sans-serif;
 }
 
+#pancakes {
+    background-color: #C83E4D;
+    color: #eee;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
 header {
     font-family: "Righteous", Verdana, sans-serif;
     background-color: #CCE6F4;
@@ -110,7 +118,8 @@ main h2 {
     grid-template-columns: 1fr 1fr;
     background-color: #CCE6F4;
     border: 2px solid #175676;
-    padding: 1.25rem;
+    padding: .75em;
+    font-size: .75em;
     top: 15%;
     left: 5%;
     opacity: .9;

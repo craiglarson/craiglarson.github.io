@@ -12,4 +12,9 @@
     header div h4 {
         font-size: 1em;
     }
+
+    .weather-summary {
+        padding: .9em;
+        font-size: .9em;
+    }
 }
