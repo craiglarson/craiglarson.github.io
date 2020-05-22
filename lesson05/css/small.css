@@ -187,6 +187,10 @@ article p.author {
     border: 1px solid #175676;
 }
 
+.contact-info h2 {
+    margin-bottom: 0;
+}
+
 .contact-content {
     display: block;
     margin: 0 auto;
