@@ -1,5 +1,6 @@
 body {
     font-family: "Quicksilver", Verdana, sans-serif;
+    background-color: #CCE6F4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -93,8 +94,9 @@ header div h4 {
   }
 
 main {
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
+    background-color: #CCE6F4;
 }
 
 main h2 {
@@ -107,7 +109,7 @@ main h2 {
     margin: 10px;
 }
 .hero-image img {
-    max-width: 1100px;
+    max-width: 1000px;
     width: 100%;
 }
 
