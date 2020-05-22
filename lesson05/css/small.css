@@ -1,6 +1,5 @@
 body {
     font-family: "Quicksilver", Verdana, sans-serif;
-    background-color: #CCE6F4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -96,7 +95,6 @@ header div h4 {
 main {
     max-width: 1000px;
     margin: 0 auto;
-    background-color: #CCE6F4;
 }
 
 main h2 {
@@ -153,7 +151,34 @@ main h2 {
 .five-day-forecast {
     display: none;
 }
-  .content-box {
+ 
+article {
+    margin: 1.5em;
+    background-color: #CCE6F4;
+    padding: 2em;
+    
+}
+article img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 0 30px #111;    
+}
+
+article h3 {
+    color: #175676;
+    margin-top: 1.5em;
+    margin-bottom: .25em;
+    font-size: 1.5em;
+}
+
+article p.author {
+    font-style: italic;
+    font-size: .90em;
+}
+
+.content-box {
       border: 1px dashed black;
       background-color: lightgray;
       margin: 10px;
