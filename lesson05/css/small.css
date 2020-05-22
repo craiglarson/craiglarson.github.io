@@ -156,6 +156,7 @@ article {
     margin: 1.5em;
     background-color: #CCE6F4;
     padding: 2em;
+    border: 1px solid #175676;
     
 }
 article img {
@@ -180,6 +181,30 @@ article p.author {
     margin-top: 10px;
 }
 
+.contact-info {
+    background-color: #CCE6F4;
+    margin: 1.5em 0 0 0;
+    border: 1px solid #175676;
+}
+
+.contact-content {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 100%;
+    max-width: 25px;
+    padding-right: 1em;
+}
+
+.contact-info iframe {
+    display: block;
+    margin: 1.5em auto;
+    box-shadow: 0 0 15px #111;
+}
+
 .content-box {
       border: 1px dashed black;
       background-color: lightgray;
@@ -191,13 +216,14 @@ article p.author {
       background-color: #175676;
       color: #fff;
       text-align: center;
-      max-width: 1250px;
+      max-width: 1000px;
       margin: 0 auto;
   }
 
  
  footer p {
-     margin-bottom: 5px;
+    margin-top: 0; 
+    margin-bottom: 5px;
  }
 
  footer p:first-child {
