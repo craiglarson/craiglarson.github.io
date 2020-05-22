@@ -123,6 +123,7 @@ main h2 {
     top: 15%;
     left: 5%;
     opacity: .9;
+    box-shadow: 0 0 30px #111;
 }
 
 .weather-summary h3 {
@@ -147,7 +148,9 @@ main h2 {
     grid-column: 2 / 3;
 }
 
-
+.five-day-forecast {
+    display: none;
+}
   .content-box {
       border: 1px dashed black;
       background-color: lightgray;

@@ -17,4 +17,33 @@
         padding: .9em;
         font-size: .9em;
     }
+
+    .five-day-forecast {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        background-color: #CCE6F4;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .five-day {
+        text-align: center;
+        flex: 1 1 auto;
+        
+    }
+
+    .five-day h4 {
+        flex: 1 1 100%;
+        background-color: #175676;
+        color: #eee;
+        margin: 0;
+        padding: 1em 1.35em;
+        font-family: "Quicksilver", Verdana, sans-serif;
+    }
+
+    .five-day p {
+        color: #175676;
+    }
 }
