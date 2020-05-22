@@ -156,7 +156,6 @@ article {
     margin: 1.5em;
     background-color: #CCE6F4;
     padding: 2em;
-    border: 1px solid #175676;
     
 }
 article img {
@@ -172,6 +171,7 @@ article h3 {
     margin-top: 1.5em;
     margin-bottom: .25em;
     font-size: 1.5em;
+    border-bottom: 2px solid #C83E4D;
 }
 
 article p.author {
@@ -184,7 +184,6 @@ article p.author {
 .contact-info {
     background-color: #CCE6F4;
     margin: 1.5em 0 0 0;
-    border: 1px solid #175676;
 }
 
 .contact-info h2 {
