@@ -1,5 +1,5 @@
 body {
-    font-family: "Quicksilver", Verdana, sans-serif;
+    font-family: "Quicksand", Verdana, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -60,6 +60,8 @@ header div h4 {
       margin: .2em 2%;
       font-size: 1.5em;
       color: #fff;
+      width: 96%;
+      text-align: left;
   }
 
   nav button:hover {
@@ -93,7 +95,7 @@ header div h4 {
   }
 
 main {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -107,7 +109,7 @@ main h2 {
     margin: 10px;
 }
 .hero-image img {
-    max-width: 1000px;
+    max-width: 900px;
     width: 100%;
 }
 
@@ -171,7 +173,6 @@ article h3 {
     margin-top: 1.5em;
     margin-bottom: .25em;
     font-size: 1.5em;
-    border-bottom: 2px solid #C83E4D;
 }
 
 article p.author {
@@ -219,7 +220,7 @@ article p.author {
       background-color: #175676;
       color: #fff;
       text-align: center;
-      max-width: 1000px;
+      max-width: 900px;
       margin: 0 auto;
   }
 

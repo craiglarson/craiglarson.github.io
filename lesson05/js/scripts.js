@@ -5,12 +5,13 @@ function toggleMenu() {
 
 let d = new Date();
 let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+let day =["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 //Get the today's date for the bottom of the page
-document.getElementById("currentDate").innerHTML = months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+document.getElementById("currentDate").innerHTML = day[d.getDay()] + ", " + months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
 
 //Get the day to display the pancakes in the park
-let day = d.getDay();
-if(day == 5) {
+let dayOfWeek = d.getDay();
+if(dayOfWeek == 5) {
    document.getElementById("pancakes").style.display = "block";
 }
 
