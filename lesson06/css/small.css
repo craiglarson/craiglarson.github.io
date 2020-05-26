@@ -191,7 +191,7 @@ article p.author {
 .contact-info {
     background-color: #CCE6F4;
     margin: 1.5em 0 0 0;
-    padding: 10px 0 0 0;
+    padding: 10px 0 20px 0;
 }
 
 .contact-info h2 {
@@ -212,7 +212,7 @@ article p.author {
 
 .contact-info iframe {
     display: block;
-    margin: 1.5em auto;
+    margin: 1.5em auto 0 auto;
     box-shadow: 0 0 15px #111;
 }
 
