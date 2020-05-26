@@ -65,14 +65,21 @@ main {
     min-height: 10rem;
 }
 
-main figure.myPhoto {
-    width: 50%;
-    margin: 0 0 0 2%;
-    float: right;
+main picture.photoB img {
+    width: 100%;
 }
 
-main figure.myPhoto img {
-    width: 100%;
+main picture.photoB div {
+    text-align: center;
+    font-weight: 500;
+    color: #d0aa94;
+}
+
+main picture.photoB {
+    display: block;
+    float: right;
+    width: 46%;
+    margin: 0 2%;
 }
 
 main figure.myPhoto figcaption {text-align: center; font-size: .75em;}
