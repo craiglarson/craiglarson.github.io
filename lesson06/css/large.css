@@ -30,11 +30,11 @@
         font-size: 1.1em;
     }
 
-    article img {
+    article picture {
+        max-width: 500px;
         float: right;
-        margin: 10px; 
+        margin-left: 2%;
     }
-
     .contact-info {
         display: grid;
         grid-template-columns: 1fr 1fr;

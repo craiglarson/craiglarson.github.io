@@ -166,12 +166,17 @@ article {
     padding: 2em;
     
 }
-article img {
+
+article picture {
     display: block;
-    margin: 0 auto;
-    width: 100%;
+    width: 96%;
     max-width: 500px;
-    box-shadow: 0 0 15px #111;    
+    margin: 0 auto;
+}
+
+article picture img {
+    width: 100%;
+    box-shadow: 0 0 15px #111;
 }
 
 article h3 {
