@@ -1,0 +1,253 @@
+body {
+    font-family: "Quicksand", Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Righteous", Verdana, sans-serif;
+}
+
+#pancakes {
+    background-color: #C83E4D;
+    color: #eee;
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header {
+    font-family: "Righteous", Verdana, sans-serif;
+    background-color: #CCE6F4;
+    color: #175676;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 75px;
+    height: 75px;
+    margin: 20px 0;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+header div h1 {
+    margin-bottom: 0;
+    font-size: 1.75em;
+}
+
+header div h4 {
+    margin-top: 0;
+    font-size: .9em;
+}
+
+
+    nav {
+      background-color: #175676;
+      font-family: "Righteous", Verdana, sans-serif;
+      
+      border-bottom: 3px solid #C83E4D;
+  }
+  
+  nav button {
+      background-color: transparent;
+      border: none;
+      margin: .2em 2%;
+      font-size: 1.5em;
+      color: #fff;
+      width: 96%;
+      text-align: left;
+  }
+
+  nav button:hover {
+      cursor: pointer;
+  }
+
+  nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  nav ul.hide {
+      display: none;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+      display: block;
+      padding: .8em 2%;
+      border-top: 1px solid #CCE6F4;
+      color: #fff;
+  }
+
+  nav ul li a:hover {
+      background-color: #4BA3C3;
+  }
+
+  nav ul li a.active {
+      color: yellow;
+  }
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+main h2 {
+    text-align: center;
+    color: #175676;
+}
+
+.hero-image {
+    position: relative;
+    margin: 10px;
+}
+
+.hero-image picture {
+    display: block;
+    width: 96%;
+    margin: 0 2%;
+}
+
+.hero-image picture img {
+    width: 100%;
+}
+
+.weather-summary {
+    position: absolute;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #CCE6F4;
+    border: 2px solid #175676;
+    padding: .75em;
+    font-size: .75em;
+    top: 15%;
+    left: 5%;
+    opacity: .9;
+    box-shadow: 0 0 30px #111;
+}
+
+.weather-summary h3 {
+    grid-column: 1 / 3;
+    margin: 0;
+    color: #175676;
+    border-bottom: 2px solid #C83E4D;
+}
+
+.weather-summary p {
+    margin: 0;
+}
+
+.weather-summary p.summary-category {
+    grid-column: 1 / 2;
+    text-align: right;
+    color: #175676;
+}
+
+.weather-summary p.summary-value {
+    color: #C83E4D;
+    grid-column: 2 / 3;
+}
+
+.five-day-forecast {
+    display: none;
+}
+ 
+article {
+    margin: 1.5em;
+    background-color: #CCE6F4;
+    padding: 2em;
+    
+}
+
+article picture {
+    display: block;
+    width: 96%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+article picture img {
+    width: 100%;
+    box-shadow: 0 0 15px #111;
+}
+
+article h3 {
+    color: #175676;
+    margin-top: 1.5em;
+    margin-bottom: .25em;
+    font-size: 1.5em;
+}
+
+article p.author {
+    font-style: italic;
+    font-size: .90em;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.contact-info {
+    background-color: #CCE6F4;
+    margin: 1.5em 0 0 0;
+    padding: 10px 0 20px 0;
+}
+
+.contact-info h2 {
+    margin-bottom: 0;
+}
+
+.contact-content {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 100%;
+    max-width: 25px;
+    padding-right: 1em;
+}
+
+.contact-info iframe {
+    display: block;
+    margin: 1.5em auto 0 auto;
+    box-shadow: 0 0 15px #111;
+}
+
+.content-box {
+      border: 1px dashed black;
+      background-color: lightgray;
+      margin: 10px;
+      padding: 20px;
+  }
+
+  footer {
+      background-color: #175676;
+      color: #fff;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+  }
+
+ 
+ footer p {
+    margin-top: 0; 
+    margin-bottom: 5px;
+ }
+
+ footer p:first-child {
+     padding-top: 15px;
+ }
+
+ footer p:last-child {
+     padding-bottom: 15px;
+     font-size: .8em;
+ }
+  
