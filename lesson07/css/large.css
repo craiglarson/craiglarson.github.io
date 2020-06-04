@@ -28,5 +28,11 @@
     main section {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    
+    main section picture:hover {
+        box-shadow: 0 0 30px #111;
+        background-color: #175676;
+        color: white;
+    }
 
 }

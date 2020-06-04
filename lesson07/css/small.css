@@ -100,7 +100,22 @@ header div h4 {
     display: grid;
     grid-gap: .75em;
     justify-items: center;
-    border: 5px solid #C83E4D;
+  }
+
+  main section picture {
+      margin: 1em;
+      border: 1px solid #175676;
+      box-shadow: 0 0 5px rgb(82, 82, 82);
+  }
+
+  main section picture img[data-src] {
+      filter: blur(0.2em);
+  }
+
+  main section picture p {
+      text-align: center;
+      margin: 0;
+      padding: 5px;
   }
 
 
