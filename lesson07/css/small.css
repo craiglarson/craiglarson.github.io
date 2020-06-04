@@ -99,6 +99,7 @@ header div h4 {
   main section {
     display: grid;
     grid-gap: .75em;
+    justify-items: center;
     border: 5px solid #C83E4D;
   }
 
