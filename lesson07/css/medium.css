@@ -13,42 +13,4 @@
         font-size: 1em;
     }
 
-    .weather-summary {
-        padding: .9em;
-        font-size: .9em;
-    }
-
-    .five-day-forecast {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        max-width: 650px;
-        margin: 0 auto;
-    }
-
-    .five-day {
-        text-align: center;
-        flex: 1 1 auto;
-        border: 2px solid #175676;
-        margin: .25em;    
-    }
-
-    .five-day h4 {
-        flex: 1 1 100%;
-        background-color: #4BA3C3;
-        color: rgb(255, 255, 255);
-        margin: 0;
-        padding: 1em 1.35em;
-        font-family: "Quicksand", Verdana, sans-serif;
-        border-bottom: 2px solid #175676;
-    }
-
-    .five-day img {
-        margin: .5em;
-    }
-
-    .five-day p {
-        color: #175676;
-    }
 }
