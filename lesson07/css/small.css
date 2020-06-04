@@ -106,10 +106,17 @@ header div h4 {
       margin: 1em;
       border: 1px solid #175676;
       box-shadow: 0 0 5px rgb(82, 82, 82);
+      background-color: #175676;
+      color: white;
   }
 
   main section picture img[data-src] {
       filter: blur(0.2em);
+  }
+
+  main section picture img {
+      filter: blur(0em);
+      max-width: 100%;
   }
 
   main section picture p {
