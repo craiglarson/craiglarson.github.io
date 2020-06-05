@@ -94,6 +94,7 @@ header div h4 {
   main h2 {
       color: #175676;
       border-bottom: 2px solid #C83E4D;
+      padding-left: 1%;
   }
 
   main section {
