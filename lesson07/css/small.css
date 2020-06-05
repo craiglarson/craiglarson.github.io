@@ -87,7 +87,7 @@ header div h4 {
   }
 
   main {
-      max-width: 1100px;
+      max-width: 1000px;
       margin: 0 auto;
   }
 
@@ -100,14 +100,15 @@ header div h4 {
     display: grid;
     grid-gap: .75em;
     justify-items: center;
+    justify-content: center;
   }
 
   main section picture {
       margin: 1em;
-      border: 1px solid #175676;
-      box-shadow: 0 0 5px rgb(82, 82, 82);
+      border: 2px solid #175676;
       background-color: #175676;
       color: white;
+      max-width: 300px;
   }
 
   main section picture img[data-src] {
@@ -120,9 +121,9 @@ header div h4 {
   }
 
   main section picture p {
-      text-align: center;
+      text-align: left;
       margin: 0;
-      padding: 5px;
+      padding: 10px 20px 10px 20px;
   }
 
 
