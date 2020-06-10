@@ -34,10 +34,31 @@
         <form method="GET" action="#">
             <fieldset>
                 <legend>Contact Information</legend>
-                
-
-
+                <label>Full Name <input type="text" name="name"></label>
+                <label>Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label>Phone* <input type="tel" name="phone" required></label>
+                <label>Zip* <input type="number" name="zip" required></label>
             </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label>Storm Date <input type="date"></label>
+                <label>Storm Severity <input type="range" min="1" max="10" list="tickmarks"></label>
+                <label>Storm Region: 
+                    <select name="area">
+                        <option value="">Select Region</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+                <div>User In Danger?</div>
+                <label><input type="radio" name="danger" value="Yes"> Yes</label>
+                <label><input type="radio" name="danger" value="No"> No</label>
+                <label><input type="radio" name="danger" value="Maybe"> Maybe</label>
+                <label>Additional Information <textarea></textarea></label>
+            </fieldset>  
+                <input type="submit" value="Update the Weather">
+                
         </form>
     </main>
     <footer>
