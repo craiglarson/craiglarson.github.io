@@ -31,6 +31,7 @@
         </ul>
     </nav>
     <main>
+        <h2>Seeing a Storm in your area? Report it here!</h2>
         <form method="GET" action="#">
             <fieldset>
                 <legend>Contact Information</legend>
@@ -43,7 +44,7 @@
                 <legend>Storm Information</legend>
                 <label class="top" for="date">Storm Date <input type="date" name="date" id="date"></label>
                 <label class="top" for="rating">Storm Severity: <span id="ratingvalue">5</span> <input type="range" name="rating" id="rating" value="5"
-                min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                min="1" max="10" step="1" list="tickmark" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 </label>
                 <label class="top" for="area">Storm Region: 
                     <select name="area" id="area">
@@ -59,7 +60,7 @@
                 <label class="sbs" for="danger"><input type="radio" name="danger" id="danger" value="Maybe"> Maybe</label>
                 <label class="top" for="additionalInfo">Additional Information: <textarea name="additionalInfo" type="text" id="additionalInfo"></textarea></label>
             </fieldset>  
-                <input type="submit" name="submit" value="Update the Weather" class="submitBtn">
+                <input type="submit" name="submit" value="Report Your Weather" class="submitBtn">
                 
                 
         </form>

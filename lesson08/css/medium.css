@@ -13,4 +13,8 @@
         font-size: 1em;
     }
 
+    form label.sbs {
+        padding: .4em 0;
+    }
+    
 }
