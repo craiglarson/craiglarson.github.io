@@ -37,7 +37,7 @@ header div h4 {
     margin-top: 0;
     font-size: .9em;
 }
-
+/*----------------NAV-------------------*/
 
     nav {
       background-color: #175676;
@@ -90,6 +90,70 @@ header div h4 {
       max-width: 1000px;
       margin: 0 auto;
   }
+
+/*-----------------FORM--------------------------*/
+
+form {
+    background-color: #CCE6F4;
+    border-radius: 10px;
+    margin: 2em 0;
+    padding: 1em 2%;
+    font-family: "Quicksand", Verdana, Sans-serif;
+    max-width: 900px;
+}
+
+form fieldset {
+    margin: 2em 0;
+    border: 1px solid #C83E4D;
+    border-radius: 10px;
+    padding: 1em 2%;
+}
+
+form legend {
+    color: #C83E4D;
+    margin: 0 1em;
+    padding: 0 .5em;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1em;
+    color: #175676;
+}
+
+#ratingvalue {
+    display: inline;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    display: block;
+    border: 1px solid #175676;
+    border-radius: 4px;
+    padding: 0.75em;
+    width: 96%;
+    max-width: 15em;
+    color: #175676;
+}
+
+
+
+form label.sbs {
+    display: block;
+    padding: 0.65em 0;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #C83E4D;
+    color: white;
+    border-radius: 10px;
+    padding: 1em;
+    margin: 0 0 2em 2%;
+    width: 100%;
+    max-width: 20em;
+}
+
+/*--------------FOOTER---------------------*/
 
  footer {
       background-color: #175676;

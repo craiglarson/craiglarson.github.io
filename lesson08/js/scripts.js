@@ -18,3 +18,4 @@ if(dayOfWeek == 5) {
 else {
    document.getElementById("pancakes").style.display = "none";
 }
+
