@@ -1,0 +1,20 @@
+@media only screen and (min-width: 550px) {
+   header img {
+        max-width: 100px;
+        height: 100px;
+        margin: 0;
+    }
+
+    header div h1 {
+        font-size: 2em;
+    }
+
+    header div h4 {
+        font-size: 1em;
+    }
+
+    main section {
+        /*grid-template-columns: 1fr 1fr;*/
+        grid-template-columns: 1fr 1fr;
+    }
+}
