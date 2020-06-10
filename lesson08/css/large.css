@@ -25,15 +25,4 @@
         border-right: 1px solid #CCE6F4;
     }
 
-    main section {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    main section picture:hover {
-        box-shadow: 0 0 30px #111;
-        background-color: #CCE6F4;
-        color: #175676;
-        border: 2px solid #CCE6F4;
-    }
-
 }

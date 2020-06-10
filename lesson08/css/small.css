@@ -91,44 +91,7 @@ header div h4 {
       margin: 0 auto;
   }
 
-  main h2 {
-      color: #175676;
-      border-bottom: 2px solid #C83E4D;
-      padding-left: 1%;
-  }
-
-  main section {
-    display: grid;
-    grid-gap: .75em;
-    justify-items: center;
-    justify-content: center;
-  }
-
-  main section picture {
-      margin: 1em;
-      border: 2px solid #175676;
-      background-color: #175676;
-      color: white;
-      max-width: 300px;
-  }
-
-  main section picture img[data-src] {
-      filter: blur(0.2em);
-  }
-
-  main section picture img {
-      filter: blur(0em);
-      max-width: 100%;
-  }
-
-  main section picture p {
-      text-align: left;
-      margin: 0;
-      padding: 10px 20px 10px 20px;
-  }
-
-
-  footer {
+ footer {
       background-color: #175676;
       color: #fff;
       text-align: center;

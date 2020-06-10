@@ -13,8 +13,4 @@
         font-size: 1em;
     }
 
-    main section {
-        /*grid-template-columns: 1fr 1fr;*/
-        grid-template-columns: 1fr 1fr;
-    }
 }
