@@ -31,11 +31,12 @@
         </ul>
     </nav>
     <main>
-        <h2>Seeing a Storm in your area? Report it here!</h2>
-        <form method="GET" action="#">
+        <h1>WeatherorNot.io Storm Center</h1>
+        <h3>See a storm in your area? Report it here!</h3>
+        <form method="GET" action="thank-you.html">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label class="top" for="name">Full Name <input type="text" name="name" id="name"></label>
+                <label class="top" for="name">Full Name <input type="text" name="name" id="name" required pattern="[A-Za-z\s]{5,}"></label>
                 <label class="top" for="email">Email <input type="email" name="email" id="email" placeholder="someone@gmail.com"></label>
                 <label class="top" for="phone">Phone* <input type="tel" name="phone" id="phone" required></label>
                 <label class="top" for="zip">Zip* <input type="number" name="zip" id="zip" required></label>
@@ -43,8 +44,16 @@
             <fieldset>
                 <legend>Storm Information</legend>
                 <label class="top" for="date">Storm Date <input type="date" name="date" id="date"></label>
+                <label class="top" for="storm-type">Storm Type: <input list="type-of-storm" id="storm-type" name="storm-type" placeholder="Select Storm Type">
+                <datalist id="type-of-storm">
+                    <option value="Flash Flood">Flash Flood</option>
+                    <option value="Hail">Hail</option>
+                    <option value="Hurricane">Hurricane</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Tornado">Tornado</option>
+                </datalist></label>
                 <label class="top" for="rating">Storm Severity: <span id="ratingvalue">5</span> <input type="range" name="rating" id="rating" value="5"
-                min="1" max="10" step="1" list="tickmark" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                 </label>
                 <label class="top" for="area">Storm Region: 
                     <select name="area" id="area">
@@ -60,9 +69,7 @@
                 <label class="sbs" for="danger"><input type="radio" name="danger" id="danger" value="Maybe"> Maybe</label>
                 <label class="top" for="additionalInfo">Additional Information: <textarea name="additionalInfo" type="text" id="additionalInfo"></textarea></label>
             </fieldset>  
-                <input type="submit" name="submit" value="Report Your Weather" class="submitBtn">
-                
-                
+                <input type="submit" name="submit" value="Report Your Weather" class="submitBtn">          
         </form>
     </main>
     <footer>

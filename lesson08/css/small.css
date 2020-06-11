@@ -92,9 +92,39 @@ header div h4 {
       padding: 0 2%;
   }
 
-  main h2 {
+  main h1 {
       color: #175676;
+      margin-bottom: 0;
   }
+
+  main h3 {
+      color: #C83E4D;
+      margin-top: 0;
+  }
+
+  main div.thank-you-copy {
+      padding: 3em 0;
+      border: 2px solid #C83E4D;
+      margin: 2em 0;
+      border-radius: 10px;
+      background-color: #CCE6F4;
+  }
+
+  main div.thank-you-copy h1, main div.thank-you-copy h3 {
+      padding: 0 .75em;
+  }
+
+  main div.thank-you-copy h1 {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+  }
+
+  main div.thank-you-copy h3 {
+    margin-bottom: 10px;
+    font-size: .85em;
+}
+
+
 
 /*-----------------FORM--------------------------*/
 form {
@@ -167,18 +197,13 @@ form label.top input:required:valid {
     border-left: 6px solid green;
 }
 
-
-
-
-
-
 /*--------------FOOTER---------------------*/
 
  footer {
       background-color: #175676;
       color: #fff;
       text-align: center;
-      max-width: 900px;
+      max-width: 1000px;
       margin: 0 auto;
   }
 
