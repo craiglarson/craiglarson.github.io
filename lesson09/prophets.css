@@ -12,7 +12,7 @@ main div.cards {
     display: grid;
     justify-content: center;
     justify-items: center;
-    grid-gap: 1em;
+    grid-gap: .5em;
 }
 
 section {
