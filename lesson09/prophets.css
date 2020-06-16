@@ -1,0 +1,66 @@
+/*--------------SMALL VIEW--------------------*/
+header h1 {
+    text-align: center;
+    color: #4f498F;
+    font-family: Pridi, Georgia, serif;
+}
+
+main div.cards {
+    background-color: #DCDDDB;
+    padding: 2em;
+    box-shadow: 0 0 50px gray;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 1em;
+}
+
+section {
+    background-color: #B8B9CD;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+section h2 {
+    text-align: center;
+    color: #4f498F;
+    font-family: Pridi, George, serif;
+}
+
+section p {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+section img {
+    display: block;
+    margin: 0 auto 1em auto;
+    box-shadow: 5px 5px 30px #111;
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    font-size: 1em;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/*---------------------MEDIUM VIEW-------------------*/
+@media only screen and (min-width: 600px) {
+    main div.cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+
+/*---------------------LARGE VIEW--------------------*/
+@media only screen and (min-width: 1000px) {
+    main div.cards {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
