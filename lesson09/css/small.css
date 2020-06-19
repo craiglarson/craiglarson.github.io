@@ -1,0 +1,228 @@
+body {
+    font-family: "Quicksand", Verdana, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Righteous", Verdana, sans-serif;
+}
+
+/*---------------HEADER-------------------------------*/
+
+header {
+    font-family: "Righteous", Verdana, sans-serif;
+    background-color: #CCE6F4;
+    color: #175676;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 75px;
+    height: 75px;
+    margin: 20px 0;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+header div h1 {
+    margin-bottom: 0;
+    font-size: 1.75em;
+}
+
+header div h4 {
+    margin-top: 0;
+    font-size: .9em;
+}
+/*----------------NAV-------------------*/
+
+    nav {
+      background-color: #175676;
+      font-family: "Righteous", Verdana, sans-serif;
+      
+      border-bottom: 3px solid #C83E4D;
+  }
+  
+  nav button {
+      background-color: transparent;
+      border: none;
+      margin: .2em 2%;
+      font-size: 1.5em;
+      color: #fff;
+      width: 96%;
+      text-align: left;
+  }
+
+  nav button:hover {
+      cursor: pointer;
+  }
+
+  nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  nav ul.hide {
+      display: none;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+      display: block;
+      padding: .8em 2%;
+      border-top: 1px solid #CCE6F4;
+      color: #fff;
+  }
+
+  nav ul li a:hover {
+      background-color: #4BA3C3;
+  }
+
+  nav ul li a.active {
+      color: yellow;
+  }
+
+  /*----------------MAIN------------------*/
+  
+  main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 2%;
+  }
+
+  main h1 {
+      color: #175676;
+      margin-bottom: 0;
+  }
+
+  main h3 {
+      color: #C83E4D;
+      margin-top: 0;
+  }
+
+  main div.thank-you-copy {
+      padding: 3em 0;
+      border: 2px solid #C83E4D;
+      margin: 2em 0;
+      border-radius: 10px;
+      background-color: #CCE6F4;
+  }
+
+  main div.thank-you-copy h1, main div.thank-you-copy h3 {
+      padding: 0 .75em;
+  }
+
+  main div.thank-you-copy h1 {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+  }
+
+  main div.thank-you-copy h3 {
+    margin-bottom: 10px;
+    font-size: .85em;
+}
+
+
+
+/*-----------------FORM--------------------------*/
+form {
+    background-color: #CCE6F4;
+    padding: 1.5em;
+    margin: 1em 0;
+    border-radius: 10px;
+    box-shadow: 0 0 25px #175676;
+}
+
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #C83E4D;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+form legend {
+    color: #C83E4D;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #175676;
+}
+
+form label.top input, form label.top select, form label.top textarea {
+    display: block;
+    font-size: 1rem;
+    border: 1px solid #175676;
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: #175676;
+    width: 85%;
+    max-width: 20rem;
+}
+
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #175676;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #C83E4D;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form input.submitBtn:hover {
+    cursor: pointer;
+    background-color: rgb(168, 41, 55);
+}
+
+form label.top input:required {
+    border-left: 6px solid #C83E4D;
+}
+
+form label.top input:required:valid {
+    border-left: 6px solid green;
+}
+
+/*--------------FOOTER---------------------*/
+
+ footer {
+      background-color: #175676;
+      color: #fff;
+      text-align: center;
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+
+ 
+ footer p {
+    margin-top: 0; 
+    margin-bottom: 5px;
+ }
+
+ footer p:first-child {
+     padding-top: 15px;
+ }
+
+ footer p:last-child {
+     padding-bottom: 15px;
+     font-size: .8em;
+ }
+  
