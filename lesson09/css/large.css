@@ -28,6 +28,29 @@
         border: none;
         border-right: 1px solid #CCE6F4;
     }
+/*---------------Homepage Introduction-------------------*/
+main section.homepage-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    grid-gap: 1em;
+}
+
+main section.homepage-intro h1 {
+    grid-column: 1 / 3;
+}
+
+main section.homepage-intro picture {
+    grid-column: 2 / 3;
+}
+
+main section.homepage-intro p {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
 
     
 }

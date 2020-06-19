@@ -96,110 +96,59 @@ header div h4 {
       padding: 0 2%;
   }
 
-  main h1 {
-      color: #175676;
-      margin-bottom: 0;
-  }
-
-  main h3 {
-      color: #C83E4D;
-      margin-top: 0;
-  }
-
-  main div.thank-you-copy {
-      padding: 3em 0;
-      border: 2px solid #C83E4D;
-      margin: 2em 0;
-      border-radius: 10px;
+  main section.homepage-intro {
       background-color: #CCE6F4;
+      padding: 1.25em;
+      margin: .75em;
   }
 
-  main div.thank-you-copy h1, main div.thank-you-copy h3 {
-      padding: 0 .75em;
+  main section.homepage-intro h1 {
+    color: #175676;
+    text-align: center;
+}
+
+  main section.homepage-intro picture {
+      display: block;
+      width: 100%;
+      max-width: 500px;
+      margin: 0 auto;
   }
 
-  main div.thank-you-copy h1 {
-      margin-bottom: 10px;
-      font-size: 1.5em;
+  main section.homepage-intro img {
+      width: 100%;
+      box-shadow: 0 0 25px #757575;
   }
-
-  main div.thank-you-copy h3 {
-    margin-bottom: 10px;
-    font-size: .85em;
+/*--------------TOWN INFORMATION------------------*/
+main section.town-info {
+    background-color: #175676;
+    padding: 1.25em;
+    margin: .75em;
 }
 
-
-
-/*-----------------FORM--------------------------*/
-form {
-    background-color: #CCE6F4;
-    padding: 1.5em;
-    margin: 1em 0;
-    border-radius: 10px;
-    box-shadow: 0 0 25px #175676;
+main section.town-info h1 {
+    color: #CCE6F4;
+    text-align: center;
 }
 
-
-form fieldset {
-    margin: 2rem 0;
-    border: 1px solid #C83E4D;
-    border-radius: 10px;
-    padding: .5rem 2%;
+main section.town-info div.cards section {
+    background-color:#CCE6F4;
+    text-align: center;
 }
 
-form legend {
+main section.town-info div.cards section h2 {
     color: #C83E4D;
-    margin: 0 1rem;
-    padding: 0 .5rem;
+    margin-bottom: 0;
 }
 
-form label.top, form div {
-    display: block;
-    padding-top: 1rem;
+main section.town-info div.cards section h4 {
     color: #175676;
+    margin:0 0 .5em 0;
 }
 
-form label.top input, form label.top select, form label.top textarea {
-    display: block;
-    font-size: 1rem;
-    border: 1px solid #175676;
-    border-radius: 4px;
-    padding: 0.75rem;
-    color: #175676;
-    width: 85%;
-    max-width: 20rem;
+main section.town-info div.cards section p {
+    margin: 0;
 }
 
-
-form label.sbs {
-    display: block;
-    padding: .75rem 0;
-    color: #175676;
-}
-
-form input.submitBtn {
-    border: none;
-    background-color: #C83E4D;
-    color: white;
-    border-radius: 1rem;
-    padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
-    width: 96%;
-    max-width: 20rem;
-}
-
-form input.submitBtn:hover {
-    cursor: pointer;
-    background-color: rgb(168, 41, 55);
-}
-
-form label.top input:required {
-    border-left: 6px solid #C83E4D;
-}
-
-form label.top input:required:valid {
-    border-left: 6px solid green;
-}
 
 /*--------------FOOTER---------------------*/
 
