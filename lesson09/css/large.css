@@ -1,8 +1,12 @@
 @media only screen and (min-width: 900px) {
+    /*----------HEADER------------*/
+    
     /*header img {
         max-width: 200px;
         height: 200px;
     }*/
+
+    /*--------------NAV--------------*/
     
     nav button {
         display: none;
