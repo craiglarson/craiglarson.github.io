@@ -254,4 +254,12 @@ main section.town-info div.cards section img {
      padding-bottom: 15px;
      font-size: .8em;
  }
+
+ footer p a {
+     color: yellow;
+ }
+
+ footer p a:hover {
+     color: hotpink;
+ }
   
