@@ -38,19 +38,42 @@
                 <source media="(max-width: 899px)" srcset="images/kayak450.jpg">
                 <img src="images/kayak500.jpg" alt="kayaking">
             </picture>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
-                magna aliqua. Ullamcorper velit sed ullamcorper morbi tincidunt. Volutpat sed cras ornare arcu dui vivamus 
-                arcu felis bibendum. Dolor sit amet consectetur adipiscing. Purus ut faucibus pulvinar elementum integer. 
-                Tristique sollicitudin nibh sit amet commodo. Sed viverra ipsum nunc aliquet bibendum enim facilisis. Proin 
-                sed libero enim sed. Quam viverra orci sagittis eu volutpat. Augue ut lectus arcu bibendum at varius vel 
-                pharetra. Sodales neque sodales ut etiam sit amet nisl purus. Viverra aliquet eget sit amet tellus cras 
-                adipiscing enim eu. Quisque egestas diam in arcu cursus euismod quis. Pellentesque habitant morbi tristique 
-                senectus. Egestas purus viverra accumsan in. Velit dignissim sodales ut eu. Habitant morbi tristique senectus 
-                et.</p>
+            <div class="intro-copy">
+                <p>WeatherOrNot.io is here to help you prepare for all of your outdoor activities in Southeastern Idaho. 
+                   Whether you're hitting the beach at Bear Lake near Fish Haven or fishing one of our many rivers or streams, we're here
+                   here to help you prepare, by giving you the latest weather updates.<br><br>
+                   We Currently Serve the Following Communities: 
+                </p>
+                <ul>
+                    <li>Preston, ID</li>
+                    <li>Soda Springs, ID</li>
+                    <li>Fish Haven, ID</li>
+                </ul>
+                <p>Check back for our <strong>hourly weather updates</strong> so you'll know what to expect as you head out
+                to explore the great outdoors!</p>
+            </div>
         </section>
         <section class="town-info">
             <h1>Town Information</h1>
             <div class="cards"></div>
+        </section>
+        <section class="weather-updates">
+            <h2>Recent Weather Updates</h2>
+            <p>On Friday night, we had a big thunderstorm roll through the area that brought heavy rains and hail in some parts of the area. 
+                People in the Soda Springs, Preston, and Fish Haven areas were treated to a spectacular lightning display. If you'd like to see
+                more images from the recent storm, be sure to checkout our <a href="/lesson07/gallery-7.html">Weather Gallery</a>. Our forecast for 
+                the next few days is nothing but sun, so get out there and have some fun!</p>
+            <div class="weather-updates-img">
+                <picture>
+                <img src="images/partlycloudy.jpg" alt="storm clouds rolling in">
+                </picture>
+                <picture>
+                <img src="images/rainandsun.jpg" alt="rain clouds with Lightening">
+                </picture>
+                <picture>
+                <img src="images/lightning.jpg" alt="lighting">
+            </picture>
+            </div>
         </section>
         <div class="contact-info">
             <h2>Contact Information</h2>
@@ -67,7 +90,7 @@
                     <a href="http://www.youtube.com"><img src="images/youtube.png" alt="youtube logo"></a>
                 </div>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39546.80824425741!2d-111.86368782228934!3d42.09389685529967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1590178956911!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d414804.3476917494!2d-111.79577981101168!3d42.314495261123874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1592622346529!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </main>
 
@@ -76,7 +99,8 @@
         <p>Today's Date: <span id="currentDate"></span></p>
     </footer>
 
-    <script src="js/scripts.js"></script>
+    
+    <script src="js/scripts.js"></script>    
     <script src="js/towns.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>WebFont.load({google: {families: ["Quicksand", "Righteous"]}});</script>

@@ -107,6 +107,10 @@ header div h4 {
     text-align: center;
 }
 
+.homepage-intro li {
+    margin: 1em;
+}
+
   main section.homepage-intro picture {
       display: block;
       width: 100%;
@@ -135,7 +139,7 @@ main section.town-info div.cards section {
     text-align: center;
     max-width: 100%;
     margin: 1em 0;
-    padding: .5em;
+    padding: .75em;
 }
 
 main section.town-info div.cards section h2 {
@@ -150,13 +154,70 @@ main section.town-info div.cards section h5 {
 }
 
 main section.town-info div.cards section p {
-    margin: 0;
+    margin: .5em;
 }
 
 main section.town-info div.cards section img {
     width: 100%;
     max-width: 300px;
+    box-shadow: 0 0 25px #7e7e7e;
 }
+/*---------------Weather Updates Section----------*/
+.weather-updates h2 {
+    color: #175676;
+    text-align: center;
+}
+
+.weather-updates div.weather-updates-img picture {
+    margin: 1em;
+}
+
+.weather-updates div.weather-updates-img picture img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
+
+
+/*-------------Contact Box----------------*/
+
+.contact-info {
+    background-color: #CCE6F4;
+    margin: 1.5em 0 0 0;
+    padding: 10px 0 20px 0;
+}
+
+.contact-info h2 {
+    margin-bottom: 0;
+    color: #175676;
+    text-align: center;
+}
+
+.contact-content {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 100%;
+    max-width: 25px;
+    padding-right: 1em;
+}
+
+.contact-info iframe {
+    display: block;
+    margin: 1.5em auto 0 auto;
+    box-shadow: 0 0 15px #111;
+}
+
+.content-box {
+      border: 1px dashed black;
+      background-color: lightgray;
+      margin: 10px;
+      padding: 20px;
+  }
 
 
 /*--------------FOOTER---------------------*/

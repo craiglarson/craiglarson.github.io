@@ -9,4 +9,4 @@ let day =["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sat
 //Get the today's date for the bottom of the page
 document.getElementById("currentDate").innerHTML = day[d.getDay()] + ", " + months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
 
-
+WebFont.load({google: {families: ["Quicksand", "Righteous"]}});

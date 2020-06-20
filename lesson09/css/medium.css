@@ -37,5 +37,17 @@
    main section.town-info div.cards section p {
        margin: 1em;
    }
+   /*-------------Recent Weather Updates------------------*/
+   .weather-updates div.weather-updates-img {
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.weather-updates div.weather-updates-img picture {
+    flex: 1 1 100%;
+}
+
 
 }
