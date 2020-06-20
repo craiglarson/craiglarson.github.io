@@ -13,5 +13,29 @@
     header div h4 {
         font-size: 1em;
     }
-    
+   /*-----------------TOWN INFO--------------*/
+   
+   main section.town-info div.cards section {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       justify-content: center;
+       justify-items: center;
+       align-items: center;
+       align-content: center;
+       grid-gap: 1em;
+   }
+
+   main section.town-info div.cards section:nth-child(odd) img {
+       grid-column: 1 / 2;
+   }
+
+   main section.town-info div.cards section:nth-child(odd) .card-copy {
+       grid-column: 2 / 3;
+       grid-row: 1;
+   }
+
+   main section.town-info div.cards section p {
+       margin: 1em;
+   }
+
 }

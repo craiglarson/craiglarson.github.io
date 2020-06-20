@@ -13,7 +13,7 @@ fetch(requestURL)
               let cardCopy = document.createElement('div')
               cardCopy.setAttribute('class', 'card-copy');
               let name = document.createElement('h2');
-              let motto = document.createElement('h4');
+              let motto = document.createElement('h5');
               let founding = document.createElement('p');
               let population = document.createElement('p');
               let precipitation = document.createElement('p');

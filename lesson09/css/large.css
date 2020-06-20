@@ -52,5 +52,21 @@ main section.homepage-intro p {
     grid-row: 2 / 3;
 }
 
+/*----------------TOWN INFORMATION-----------------*/
+main section.town-info div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1em;
+}
+
+main section.town-info div.cards section {
+    display: block;
+}
+
+main section.town-info div.cards section:nth-child(3) h5 {
+    font-size: .75em;
+}
+
+
     
 }
