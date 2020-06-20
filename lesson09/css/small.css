@@ -174,7 +174,14 @@ main section.town-info div.cards section img {
 .weather-updates h2 {
     color: #175676;
     text-align: center;
-    
+}
+
+.weather-updates p a {
+    color: #C83E4D;
+}
+
+.weather-updates p a:hover {
+    color: darkorange;
 }
 
 .weather-updates div.weather-updates-img picture {
