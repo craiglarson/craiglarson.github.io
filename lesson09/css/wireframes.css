@@ -1,0 +1,14 @@
+h1, h2 {
+    text-align: center;
+}
+
+div {
+   text-align: center;
+   background-color: lightblue;
+   Border: 3px Solid red; 
+   margin: 1.5em auto;
+}
+
+img {
+    border: 2px solid black;
+}

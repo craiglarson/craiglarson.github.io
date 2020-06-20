@@ -100,6 +100,7 @@ header div h4 {
       background-color: #CCE6F4;
       padding: 1.25em;
       margin: .75em;
+      border: 2px solid #C83E4D;
   }
 
   main section.homepage-intro h1 {
@@ -163,9 +164,17 @@ main section.town-info div.cards section img {
     box-shadow: 0 0 25px #7e7e7e;
 }
 /*---------------Weather Updates Section----------*/
+.weather-updates {
+    margin: .75em;
+    padding: 1.25em;
+    border: 2px solid #C83E4D;
+    background-color: #CCE6F4;
+}
+
 .weather-updates h2 {
     color: #175676;
     text-align: center;
+    
 }
 
 .weather-updates div.weather-updates-img picture {
@@ -177,6 +186,7 @@ main section.town-info div.cards section img {
     width: 100%;
     max-width: 300px;
     margin: auto;
+    box-shadow: 0 0 20px #111;
 }
 
 
