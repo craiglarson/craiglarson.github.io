@@ -103,7 +103,7 @@ header div h4 {
       border: 2px solid #C83E4D;
   }
 
-  main section.homepage-intro h1 {
+  main section.homepage-intro h2 {
     color: #175676;
     text-align: center;
 }
@@ -130,7 +130,7 @@ main section.town-info {
     margin: .75em;
 }
 
-main section.town-info h1 {
+main section.town-info h2 {
     color: #CCE6F4;
     text-align: center;
 }
