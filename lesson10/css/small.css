@@ -145,13 +145,13 @@ main h2 {
     margin: 0;
 }
 
-.weather-summary p.summary-category {
+.weather-summary p {
     grid-column: 1 / 2;
     text-align: right;
     color: #175676;
 }
 
-.weather-summary p.summary-value {
+.weather-summary span {
     color: #C83E4D;
     grid-column: 2 / 3;
 }

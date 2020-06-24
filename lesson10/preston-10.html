@@ -44,16 +44,12 @@
             </picture>
             <section class="weather-summary">
                     <h3>Weather Summary</h3>
-                    <p class="summary-category">Currently:</p>
-                    <p class="summary-value">Sunny</p>
-                    <p class="summary-category">High:</p>
-                    <p class="summary-value"><span id="temperature">49</span>°F</p>
-                    <p class="summary-category">Wind Chill:</p>
-                    <p class="summary-value"><span id="windchill"></span></p>
-                    <p class="summary-category">Humidity:</p>
-                    <p class="summary-value">55%</p>
-                    <p class="summary-category">Wind Speed:</p>
-                    <p class="summary-value"><span id="windspeed">6</span> mph</p>
+                    <p class="summary-category">Currently: </p><span id="weather-desc"></span>
+                    <p class="summary-category">High Temp: </p><span id="high-temp"></span>
+                    <p class="summary-category">Current Temp: </p><span id="current-temp"></span>                    
+                    <p class="summary-category">Humidity: </p><span id="humidity"></span>
+                    <p class="summary-category">Wind Speed: </p><span id="windspeed"></span>
+                    <p class="summary-category">Wind Chill: </p><span id="windchill"></span>
             </section>
         </div>
 
@@ -126,7 +122,7 @@
     </footer>
 
     <script src="js/scripts.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/weather.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>WebFont.load({google: {families: ["Quicksand", "Righteous"]}});</script>
 </body>
