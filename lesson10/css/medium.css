@@ -20,7 +20,7 @@
 
     .five-day-forecast {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-content: center;
         justify-content: center;
         max-width: 650px;
