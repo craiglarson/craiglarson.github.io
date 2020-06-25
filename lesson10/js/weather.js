@@ -39,16 +39,20 @@ fetch(forecastURL)
       const list = jsObject['list'];
       const forecast = list.filter(i => (i.dt_txt.includes("18:00:00")));
       console.log(forecast);
+      const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
       forecast.forEach(i =>{
         let card = document.createElement('div');
         card.setAttribute('class', 'five-day');
         let day = document.createElement('h4');
+        let d = new Date(i.dt_txt);
+        let dayOfWeek = weekdays[d.getDay()];
         let image = document.createElement('img');
         const imageSRC = `https://openweathermap.org/img/w/${i.weather[0].icon}.png`;
         let temp = document.createElement('p');
         let temperature = i.main.temp;
 
-        day.innerHTML = i.dt_txt;
+        day.innerHTML = dayOfWeek;
         image.setAttribute('src', imageSRC);
         image.setAttribute('alt', i.weather[0].description);
         image.setAttribute('width', '75');
