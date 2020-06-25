@@ -9,13 +9,5 @@ let day =["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Sat
 //Get the today's date for the bottom of the page
 document.getElementById("currentDate").innerHTML = day[d.getDay()] + ", " + months[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
 
-//Get the day to display the pancakes in the park
-let dayOfWeek = d.getDay();
-if(dayOfWeek == 5) {
-   document.getElementById("pancakes").style.display = "block";
-}
 
-else {
-   document.getElementById("pancakes").style.display = "none";
-}
 
