@@ -94,12 +94,16 @@ header div h4 {
 
   main h1 {
       color: #175676;
-      margin-bottom: 0;
+      width: 100%;
+      max-width: 500px;
+      margin: .5em auto 0 auto;
   }
 
   main h3 {
       color: #C83E4D;
-      margin-top: 0;
+      margin: 0 auto;
+      width: 100%;
+      max-width: 500px;
   }
 
   main div.thank-you-copy {
@@ -130,14 +134,16 @@ header div h4 {
 form {
     background-color: #CCE6F4;
     padding: 1.5em;
-    margin: 1em 0;
     border-radius: 10px;
     box-shadow: 0 0 25px #175676;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 500px;
 }
 
 
 form fieldset {
-    margin: 2rem 0;
+    margin: 2rem auto;
     border: 1px solid #C83E4D;
     border-radius: 10px;
     padding: .5rem 2%;
@@ -166,6 +172,9 @@ form label.top input, form label.top select, form label.top textarea {
     max-width: 20rem;
 }
 
+input#rating {
+    padding: 0;
+}
 
 form label.sbs {
     display: block;
