@@ -18,3 +18,6 @@ if(dayOfWeek == 5) {
 else {
    document.getElementById("pancakes").style.display = "none";
 }
+
+//GOOGLE FONTS
+WebFont.load({google: {families: ["Quicksand", "Righteous"]}});
