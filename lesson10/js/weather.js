@@ -5,7 +5,6 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-      console.log(jsObject);
       document.getElementById('weather-desc').innerHTML = jsObject.weather[0].description;
       document.getElementById('high-temp').innerHTML = `${jsObject.main.temp_max}&deg;F`;
       document.getElementById('current-temp').innerHTML = `${jsObject.main.temp}&deg;F`;
@@ -35,10 +34,8 @@ const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473
 fetch(forecastURL)
   .then((response) => response.json())
   .then((jsObject) => {
-      console.log(jsObject);
       const list = jsObject['list'];
       const forecast = list.filter(i => (i.dt_txt.includes("18:00:00")));
-      console.log(forecast);
       const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
       forecast.forEach(i =>{
