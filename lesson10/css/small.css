@@ -246,6 +246,14 @@ article p.author {
     margin-bottom: 5px;
  }
 
+ footer p a {
+     color: yellow;
+ }
+
+ footer p a:hover {
+     color: red;
+ }
+
  footer p:first-child {
      padding-top: 15px;
  }
@@ -254,4 +262,6 @@ article p.author {
      padding-bottom: 15px;
      font-size: .8em;
  }
+
+
   
