@@ -97,4 +97,17 @@ main section.town-info div.cards section:nth-child(3) h5 {
     font-size: .75em;
 }
 
+/*--------------WEATHER GALLER-------------------*/
+main.weather-gallery-main section {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main.weather-gallery-main section picture:hover {
+    box-shadow: 0 0 30px #111;
+    background-color: #CCE6F4;
+    color: #175676;
+    border: 2px solid #CCE6F4;
+}
+
+
 }

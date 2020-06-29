@@ -107,4 +107,10 @@ main div.thank-you-copy h3 {
   font-size: 1.20em;
 }
 
+/*----------WEATHER GALLERY-----------*/
+main.weather-gallery-main section {
+    /*grid-template-columns: 1fr 1fr;*/
+    grid-template-columns: 1fr 1fr;
+}
+
 }

@@ -12,7 +12,7 @@
     header div h4 {
         font-size: 1em;
     }
-
+/*----------WEATHER GALLERY-----------*/
     main section {
         /*grid-template-columns: 1fr 1fr;*/
         grid-template-columns: 1fr 1fr;

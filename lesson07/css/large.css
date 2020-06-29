@@ -24,7 +24,7 @@
         border: none;
         border-right: 1px solid #CCE6F4;
     }
-
+/*--------------WEATHER GALLER-------------------*/
     main section {
         grid-template-columns: 1fr 1fr 1fr;
     }
