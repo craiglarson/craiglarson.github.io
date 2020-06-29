@@ -92,24 +92,23 @@ form label.sbs {
     padding: .4em 0;
 }
 /*-----------THANK YOU PAGE------------*/   
-main div.thank-you-copy h1, main div.thank-you-copy h3 {
+main.thank-you-main div.thank-you-copy h1, main div.thank-you-copy h3 {
     padding: 0 .75em;
     text-align: center;
 }
 
-main div.thank-you-copy h1 {
+main.thank-you-main div.thank-you-copy h1 {
     margin-bottom: 10px;
     font-size: 2em;
 }
 
-main div.thank-you-copy h3 {
+main.thank-you-main div.thank-you-copy h3 {
   margin-bottom: 10px;
   font-size: 1.20em;
 }
 
 /*----------WEATHER GALLERY-----------*/
 main.weather-gallery-main section {
-    /*grid-template-columns: 1fr 1fr;*/
     grid-template-columns: 1fr 1fr;
 }
 

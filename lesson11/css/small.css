@@ -471,7 +471,7 @@ form label.top input:required:valid {
 }
 
 /*-------------THANK YOU PAGE-----------*/
-main div.thank-you-copy {
+main.thank-you-main div.thank-you-copy {
     padding: 3em 0;
     border: 2px solid #C83E4D;
     margin: 2em 0;
@@ -479,16 +479,18 @@ main div.thank-you-copy {
     background-color: #CCE6F4;
 }
 
-main div.thank-you-copy h1, main div.thank-you-copy h3 {
+main.thank-you-main div.thank-you-copy h1, main div.thank-you-copy h3 {
     padding: 0 .75em;
+    color: #175676;
 }
 
-main div.thank-you-copy h1 {
+main.thank-you-main div.thank-you-copy h1 {
     margin-bottom: 10px;
     font-size: 1.5em;
+    color: #C83E4D;
 }
 
-main div.thank-you-copy h3 {
+main.thank-you-main div.thank-you-copy h3 {
   margin-bottom: 10px;
   font-size: .85em;
 }
@@ -507,7 +509,7 @@ main.weather-gallery-main section {
   justify-content: center;
 }
 
-main.weather-gallery-main section picture {
+main.weather-gallery-main section figure {
     margin: 1em;
     border: 2px solid #175676;
     background-color: #175676;
@@ -515,16 +517,16 @@ main.weather-gallery-main section picture {
     max-width: 300px;
 }
 
-main.weather-gallery-main section picture img[data-src] {
+main.weather-gallery-main section figure img[data-src] {
     filter: blur(0.2em);
 }
 
-main.weather-gallery-main section picture img {
+main.weather-gallery-main section figure img {
     filter: blur(0em);
     max-width: 100%;
 }
 
-main.weather-gallery-main section picture p {
+main.weather-gallery-main section figure figcaption {
     text-align: left;
     margin: 0;
     padding: 10px 20px 10px 20px;
