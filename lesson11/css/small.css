@@ -140,6 +140,11 @@ main h2 {
      font-size: .8em;
  }
 
+ footer p.openweather-credit {
+     font-style: italic;
+     font-size: .75em;
+ }
+
  /*------------TOWN Page Content----------------------*/
 .hero-image {
     position: relative;
