@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather page for the town of Presont Idaho.">
+    <title>Preston Town Page</title>
+    <link rel="shortcut icon" href="favicon2.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!--<link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Righteous&display=swap" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <div id="pancakes">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+        <img src="images/iconfinder_weather-12_1530381.png" alt="Weather or Not Logo">
+        <div class="headings">
+        <h1>Weather or Not.io</h1>
+        <h4>Should you stay or should you go?</h4>
+        </div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/lesson09/index.html">Home</a></li>
+            <li><a class="active" href="preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/lesson08/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson07/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class="hero-image">
+            <picture>
+                <source media="(max-width: 549px)" srcset="images/prestonlandscape200.jpg">
+                <source media="(max-width: 899px)" srcset="images/prestonlandscape550.jpg">
+                <img src="images/prestonlandscape1000.jpg" alt="preston idaho landscape">
+            </picture>
+            <section class="weather-summary">
+                    <h3>Weather Summary</h3>
+                    <p class="summary-category">Currently: </p><span id="weather-desc"></span>
+                    <p class="summary-category">High Temp: </p><span id="high-temp"></span>
+                    <p class="summary-category">Current Temp: </p><span id="current-temp"></span>                    
+                    <p class="summary-category">Humidity: </p><span id="humidity"></span>
+                    <p class="summary-category">Wind Speed: </p><span id="windspeed"></span>
+                    <p class="summary-category">Wind Chill: </p><span id="windchill"></span>
+            </section>
+        </div>
+
+        <section class="five-day-forecast">
+        </section>
+        <article>
+            <picture>
+                <source media="(max-width: 549px)" srcset="images/fishing350.jpg">
+                <!--<source media="(max-width: 899px)" srcset="images/fishing420.jpg">-->
+                <img src="images/fishing500.jpg" alt="Man Fishing in Boat">
+            </picture>
+            <h3>Spring Fishing Weather</h3>
+            <p class="author">by Craig Larson</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                dolore magna aliqua. Ligula ullamcorper malesuada proin libero nunc. Quis imperdiet massa tincidunt nunc 
+                pulvinar. Nisi quis eleifend quam adipiscing. Sit amet purus gravida quis. Et ligula ullamcorper 
+                malesuada proin libero. Eget nulla facilisi etiam dignissim diam.<br><br> Dolor sit amet consectetur adipiscing
+                 elit pellentesque habitant. Diam in arcu cursus euismod quis. Tellus molestie nunc non blandit massa 
+                 enim nec dui. Accumsan lacus vel facilisis volutpat est velit. Lacus sed viverra tellus in hac habitasse 
+                 platea dictumst. In mollis nunc sed id semper risus. Feugiat scelerisque varius morbi enim. Amet commodo 
+                 nulla facilisi nullam vehicula ipsum a arcu cursus. Enim praesent elementum facilisis leo vel fringilla.
+            </p>
+        </article>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="contact-content">
+                <p>123 Main St., Suite 200<br>
+                   Preston, ID 83263
+                </p>
+                <a href="mailto:craig.larson87@gmail.com">Info@weatherornot.io</a>
+                <p>801-209-8296</p>
+                <div class="social-icons">
+                    <a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+                    <a href="http://www.twitter.com"><img src="images/twitter.png" alt="Twitter logo"></a>
+                    <a href="http://www.instagram.com"><img src="images/instagram.png" alt="instagram logo"></a>
+                    <a href="http://www.youtube.com"><img src="images/youtube.png" alt="youtube logo"></a>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39546.80824425741!2d-111.86368782228934!3d42.09389685529967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1590178956911!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; WeatherorNot.io | WDD230 - 06 | Craig Larson</p> 
+        <p>Weather Summary & Forecast courtesy of <a href="https://openweathermap.org/">openweathermap.org</a></p>
+        <p>Today's Date: <span id="currentDate"></span></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>

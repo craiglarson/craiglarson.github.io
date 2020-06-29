@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page shows a gallery of weather images">
+    <title>Storm Center</title>
+    <link rel="shortcut icon" href="favicon2.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/iconfinder_weather-12_1530381.png" alt="Weather or Not Logo">
+        <div class="headings">
+        <h1>Weather or Not.io</h1>
+        <h4>Should you stay or should you go?</h4>
+        </div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a href="/lesson09/index.html">Home</a></li>
+            <li><a href="/lesson06/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a class="active" href="#">Storm Center</a></li>
+            <li><a href="/lesson07/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>WeatherorNot.io Storm Center</h1>
+        <h3>See a storm in your area? Report it here!</h3>
+        <form method="GET" action="thank-you.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top" for="name">Full Name <input type="text" name="name" id="name" required pattern="[A-Za-z\s]{5,}"></label>
+                <label class="top" for="email">Email <input type="email" name="email" id="email" placeholder="someone@gmail.com"></label>
+                <label class="top" for="phone">Phone* <input type="tel" name="phone" id="phone" required></label>
+                <label class="top" for="zip">Zip* <input type="number" name="zip" id="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top" for="date">Storm Date <input type="date" name="date" id="date"></label>
+                <label class="top" for="storm-type">Storm Type: <input list="type-of-storm" id="storm-type" name="storm-type" placeholder="Select Storm Type">
+                <datalist id="type-of-storm">
+                    <option value="Flash Flood">Flash Flood</option>
+                    <option value="Hail">Hail</option>
+                    <option value="Hurricane">Hurricane</option>
+                    <option value="Thunderstorm">Thunderstorm</option>
+                    <option value="Tornado">Tornado</option>
+                </datalist></label>
+                <label class="top" for="rating">Storm Severity: <span id="ratingvalue">5</span> <input type="range" name="rating" id="rating" value="5"
+                min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                </label>
+                <label class="top" for="area">Storm Region: 
+                    <select name="area" id="area">
+                        <option value="" disabled selected>Select Region &#9662;</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+                <div>User In Danger?</div>
+                <label class="sbs"><input type="radio" name="danger" class="danger" value="Yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="danger" class="danger" value="No"> No</label>
+                <label class="sbs"><input type="radio" name="danger" class="danger" value="Maybe"> Maybe</label>
+                <label class="top" for="additionalInfo">Additional Information: <textarea name="additionalInfo" id="additionalInfo"></textarea></label>
+            </fieldset>  
+                <input type="submit" name="submit" value="Report Your Weather" class="submitBtn">          
+        </form>
+    </main>
+    <footer>
+        <p>&copy; WeatherorNot.io | WDD230 - 06 | Craig Larson</p> 
+        <p>Today's Date: <span id="currentDate"></span></p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/rating.js"></script>
+    
+    <script></script>
+    </body>
+    </html>

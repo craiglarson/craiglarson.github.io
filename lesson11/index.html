@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page shows a gallery of weather images">
+    <title>WeatherOrNot.io</title>
+    <link rel="shortcut icon" href="favicon2.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+        <img src="images/iconfinder_weather-12_1530381.png" alt="Weather or Not Logo">
+        <div class="headings">
+        <h1>Weather or Not.io</h1>
+        <h4>Should you stay or should you go?</h4>
+        </div>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="/lesson06/preston-6.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="/lesson08/stormcenter.html">Storm Center</a></li>
+            <li><a href="/lesson07/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="homepage-intro">
+            <h2>Welcome to WeatherOrNot.io</h2>
+            <picture>
+                <source media="(max-width: 459px)" srcset="images/kayak350.jpg">
+                <source media="(max-width: 899px)" srcset="images/kayak450.jpg">
+                <img src="images/kayak500.jpg" alt="kayaking">
+            </picture>
+            <div class="intro-copy">
+                <p>WeatherOrNot.io is here to help you prepare for all of your outdoor activities in Southeastern Idaho. 
+                   Whether you're hitting the beach at Bear Lake near Fish Haven or fishing one of our many rivers or streams, we're here
+                   here to help you prepare, by giving you the latest weather updates.<br><br>
+                   We Currently Serve the Following Communities: 
+                </p>
+                <ul>
+                    <li>Preston, ID</li>
+                    <li>Soda Springs, ID</li>
+                    <li>Fish Haven, ID</li>
+                </ul>
+                <p>Check back for our <strong>hourly weather updates</strong> so you'll know what to expect as you head out
+                to explore the great outdoors!</p>
+            </div>
+        </section>
+        <section class="town-info">
+            <h2>Town Information</h2>
+            <div class="cards"></div>
+        </section>
+        <section class="weather-updates">
+            <h2>Recent Weather Updates</h2>
+            <p>On Friday night, we had a big thunderstorm roll through that brought heavy rains and and even some hail in parts of the area. 
+                People in the Soda Springs, Preston, and Fish Haven areas were treated to a spectacular lightning display. If you'd like to see
+                more images from the recent storm, be sure to checkout our <a href="/lesson07/gallery-7.html">Weather Gallery</a>. Our forecast for 
+                the next few days is nothing but sun, so get out there and have some fun!</p>
+            <div class="weather-updates-img">
+                <picture>
+                <img src="images/partlycloudy.jpg" alt="storm clouds rolling in">
+                </picture>
+                <picture>
+                <img src="images/rainandsun.jpg" alt="rain clouds with Lightening">
+                </picture>
+                <picture>
+                <img src="images/lightning.jpg" alt="lighting">
+            </picture>
+            </div>
+        </section>
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="contact-content">
+                <p>123 Main St., Suite 200<br>
+                   Preston, ID 83263
+                </p>
+                <a href="mailto:craig.larson87@gmail.com">Info@weatherornot.io</a>
+                <p>801-209-8296</p>
+                <div class="social-icons">
+                    <a href="http://www.facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+                    <a href="http://www.twitter.com"><img src="images/twitter.png" alt="Twitter logo"></a>
+                    <a href="http://www.instagram.com"><img src="images/instagram.png" alt="instagram logo"></a>
+                    <a href="http://www.youtube.com"><img src="images/youtube.png" alt="youtube logo"></a>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d414804.3476917494!2d-111.79577981101168!3d42.314495261123874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1592622346529!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; WeatherorNot.io | WDD230 - 06 | Craig Larson | <a href="wireframes.html">Home Page Wireframes</a></p> 
+        <p>Today's Date: <span id="currentDate"></span></p>
+    </footer>
+
+    
+    <script src="js/scripts.js"></script>    
+    <script src="js/towns.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>WebFont.load({google: {families: ["Quicksand", "Righteous"]}});</script>
+    </body>
+    </html>
