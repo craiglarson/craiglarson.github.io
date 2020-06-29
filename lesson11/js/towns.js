@@ -6,7 +6,6 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
       const towns = jsonObject["towns"];
-      console.table(jsonObject); //temporary checking for valid response and data parsing
       for (let i = 0; i < towns.length; i++) {
           if(towns[i].name == "Preston" || towns[i].name == "Soda Springs" || towns[i].name == "Fish Haven") {
               let card = document.createElement('section');
