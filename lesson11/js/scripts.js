@@ -21,3 +21,9 @@ else {
 
 //GOOGLE FONTS
 WebFont.load({google: {families: ["Quicksand", "Righteous"]}});
+
+
+//Storm Center Rating
+function adjustRating(rating) {
+   document.getElementById("ratingvalue").innerHTML = rating;
+}

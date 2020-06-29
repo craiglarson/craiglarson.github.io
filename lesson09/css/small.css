@@ -90,7 +90,7 @@ header div h4 {
 
   /*----------------MAIN------------------*/
   
-  main {
+  main.homepage-main {
       max-width: 1000px;
       margin: 0 auto;
       padding: 0 2%;

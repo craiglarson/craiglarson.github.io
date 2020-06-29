@@ -51,4 +51,60 @@
     .five-day p {
         color: #175676;
     }
+ /*-----------------TOWN INFO--------------*/
+   
+ main section.town-info div.cards section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    grid-gap: 1em;
+}
+
+main section.town-info div.cards section:nth-child(odd) img {
+    grid-column: 1 / 2;
+}
+
+main section.town-info div.cards section:nth-child(odd) .card-copy {
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+main section.town-info div.cards section p {
+    margin: 1em;
+}
+/*-------------Recent Weather Updates------------------*/
+.weather-updates div.weather-updates-img {
+ display: flex;
+ flex-wrap:nowrap;
+ justify-content: center;
+ align-content: center;
+}
+
+.weather-updates div.weather-updates-img picture {
+ flex: 1 1 100%;
+}
+
+/*--------FORM--------------*/
+form label.sbs {
+    padding: .4em 0;
+}
+/*-----------THANK YOU PAGE------------*/   
+main div.thank-you-copy h1, main div.thank-you-copy h3 {
+    padding: 0 .75em;
+    text-align: center;
+}
+
+main div.thank-you-copy h1 {
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+main div.thank-you-copy h3 {
+  margin-bottom: 10px;
+  font-size: 1.20em;
+}
+
 }

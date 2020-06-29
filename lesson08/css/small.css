@@ -91,7 +91,7 @@ header div h4 {
       margin: 0 auto;
       padding: 0 2%;
   }
-
+/*-------STORM-CENTER-MAIN-----------*/
   main h1 {
       color: #175676;
       width: 100%;
@@ -106,6 +106,7 @@ header div h4 {
       max-width: 500px;
   }
 
+/*-------------THANK YOU PAGE-----------*/
   main div.thank-you-copy {
       padding: 3em 0;
       border: 2px solid #C83E4D;

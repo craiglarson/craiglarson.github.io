@@ -13,11 +13,11 @@
         font-size: 1em;
     }
 
-    
+/*--------FORM--------------*/
     form label.sbs {
         padding: .4em 0;
     }
-    
+ /*-----------THANK YOU PAGE------------*/   
     main div.thank-you-copy h1, main div.thank-you-copy h3 {
         padding: 0 .75em;
         text-align: center;
