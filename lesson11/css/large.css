@@ -3,7 +3,7 @@
         max-width: 200px;
         height: 200px;
     }*/
-    
+/*-------------NAVIGATION----------------*/    
     nav button {
         display: none;
     }
@@ -24,7 +24,7 @@
         border: none;
         border-right: 1px solid #CCE6F4;
     }
-
+/*---------------TOWN Page Content------------------*/
     .weather-summary {
         padding: 1.25em;
     }
@@ -34,6 +34,7 @@
         float: right;
         margin-left: 2%;
     }
+ /*--------------CONTACT INFO BOX-----------------*/   
     .contact-info {
         display: grid;
         grid-template-columns: 1fr 1fr;

@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
+/*-------------HEADER-------------------------*/
 header {
     font-family: "Righteous", Verdana, sans-serif;
     background-color: #CCE6F4;
@@ -47,7 +48,7 @@ header div h4 {
     font-size: .9em;
 }
 
-
+/*-----------------NAVIGATION----------------*/
     nav {
       background-color: #175676;
       font-family: "Righteous", Verdana, sans-serif;
@@ -95,6 +96,7 @@ header div h4 {
       color: yellow;
   }
 
+/*-------------------MAIN------------------*/  
 main {
     max-width: 900px;
     margin: 0 auto;
@@ -105,6 +107,40 @@ main h2 {
     color: #175676;
 }
 
+
+/*------------------FOOTER------------------------*/
+  footer {
+      background-color: #175676;
+      color: #fff;
+      text-align: center;
+      max-width: 900px;
+      margin: 0 auto;
+  }
+
+ 
+ footer p {
+    margin-top: 0; 
+    margin-bottom: 5px;
+ }
+
+ footer p a {
+     color: yellow;
+ }
+
+ footer p a:hover {
+     color: red;
+ }
+
+ footer p:first-child {
+     padding-top: 15px;
+ }
+
+ footer p:last-child {
+     padding-bottom: 15px;
+     font-size: .8em;
+ }
+
+ /*------------TOWN Page Content----------------------*/
 .hero-image {
     position: relative;
     margin: 10px;
@@ -195,6 +231,8 @@ article p.author {
     margin-top: 10px;
 }
 
+/*--------CONTACT INFO--------------*/
+
 .contact-info {
     background-color: #CCE6F4;
     margin: 1.5em 0 0 0;
@@ -232,37 +270,6 @@ article p.author {
       margin: 10px;
       padding: 20px;
   }
-
-  footer {
-      background-color: #175676;
-      color: #fff;
-      text-align: center;
-      max-width: 900px;
-      margin: 0 auto;
-  }
-
- 
- footer p {
-    margin-top: 0; 
-    margin-bottom: 5px;
- }
-
- footer p a {
-     color: yellow;
- }
-
- footer p a:hover {
-     color: red;
- }
-
- footer p:first-child {
-     padding-top: 15px;
- }
-
- footer p:last-child {
-     padding-bottom: 15px;
-     font-size: .8em;
- }
 
 
   
