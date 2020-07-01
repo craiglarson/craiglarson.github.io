@@ -64,3 +64,23 @@ fetch(forecastURL)
         document.querySelector('section.five-day-forecast').appendChild(card);
       });
       });
+
+            //----------TOWN EVENTS----------------
+const townInfo = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(townInfo)
+  .then((response) => response.json())
+  .then((jsObject) => {
+    console.log(jsObject);
+    const towns = jsObject['towns'];
+    console.log(towns);
+    const preston = towns.filter(i => (i.name == "Fish Haven"));
+    const events = preston[0].events;
+    console.log(events);
+    for (let i = 0; i < events.length; i++) {
+      let event = document.createElement('p');
+      event.innerHTML = events[i];
+      console.log(event);
+      document.querySelector('div.events-box').appendChild(event);    
+    }
+  });

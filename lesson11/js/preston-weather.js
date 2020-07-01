@@ -77,7 +77,7 @@ fetch(townInfo)
     console.log(events);
     for (let i = 0; i < events.length; i++) {
       let event = document.createElement('p');
-      event.textContent = events[i];
+      event.innerHTML = events[i];
       console.log(event);
       document.querySelector('div.events-box').appendChild(event);    
     }
