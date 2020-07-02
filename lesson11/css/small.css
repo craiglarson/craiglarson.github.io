@@ -204,7 +204,7 @@ main h2 {
 }
  
 article {
-    margin: 1.5em;
+    margin: 1.5em 0;
     background-color: #CCE6F4;
     padding: 2em;
     
