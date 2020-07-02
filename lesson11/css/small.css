@@ -440,7 +440,8 @@ form fieldset {
 }
 
 form legend {
-    color: #175676;
+    color: #C83E4D;
+    font-weight: bold;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
