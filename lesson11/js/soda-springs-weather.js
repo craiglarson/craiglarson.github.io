@@ -5,7 +5,6 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5607916&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
       document.getElementById('weather-desc').innerHTML = jsObject.weather[0].description;
       document.getElementById('high-temp').innerHTML = `${jsObject.main.temp_max}&deg;F`;
       document.getElementById('current-temp').innerHTML = `${jsObject.main.temp}&deg;F`;
@@ -38,7 +37,6 @@ fetch(forecastURL)
       const list = jsObject['list'];
       const forecast = list.filter(i => (i.dt_txt.includes("18:00:00")));
       const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
-      console.log(forecast);
 
       forecast.forEach(i =>{
         let card = document.createElement('div');
@@ -71,16 +69,12 @@ const townInfo = 'https://byui-cit230.github.io/weather/data/towndata.json';
 fetch(townInfo)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     const towns = jsObject['towns'];
-    console.log(towns);
     const preston = towns.filter(i => (i.name == "Soda Springs"));
     const events = preston[0].events;
-    console.log(events);
     for (let i = 0; i < events.length; i++) {
       let event = document.createElement('p');
       event.innerHTML = events[i];
-      console.log(event);
       document.querySelector('div.events-box').appendChild(event);    
     }
   });
