@@ -18,6 +18,10 @@
         padding: .9em;
     }
 
+    .five-day-container {
+        display: block;
+    }
+    
     .five-day-forecast {
         display: flex;
         flex-wrap: nowrap;
