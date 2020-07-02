@@ -59,7 +59,7 @@ fetch(forecastURL)
         card.appendChild(image);
         card.appendChild(temp);
 
-        document.querySelector('section.five-day-forecast').appendChild(card);
+        document.querySelector('div.five-day-forecast').appendChild(card);
       });
       });
 
