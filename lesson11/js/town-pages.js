@@ -1,7 +1,6 @@
 //Dynamically Pull town info
 let townInfo = document.getElementById('currentTown').innerHTML;
 let townid;
-console.log(townInfo);
 if (townInfo == "Preston, Idaho") {
   townid = 5604473;
   townName = 'Preston';
@@ -14,7 +13,6 @@ else if (townInfo == "Fish Haven, Idaho") {
   townid = 5585010;
   townName = 'Fish Haven';
 }
-console.log(townid);
 
 //CURRENT WEATHER API
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${townid}&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289`;
