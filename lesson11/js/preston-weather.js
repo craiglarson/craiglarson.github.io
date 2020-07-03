@@ -1,7 +1,24 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289';
-/*-----FORECAST URL---http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289*/
+//Dynamically Pull town info
+let townInfo = document.getElementById('currentTown').innerHTML;
+let townid;
+console.log(townInfo);
+if (townInfo == "Preston, Idaho") {
+  townid = 5604473;
+  townName = 'Preston';
+}
+else if (townInfo == "Soda Springs, Idaho") {
+  townid = 5607916;
+  townName = 'Soda Springs';
+}
+else if (townInfo == "Fish Haven, Idaho") {
+  townid = 5585010;
+  townName = 'Fish Haven';
+}
+console.log(townid);
 
 //CURRENT WEATHER API
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=${townid}&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289`;
+
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -29,7 +46,7 @@ fetch(apiURL)
     }
 
 //FORECAST API
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289';
+const forecastURL = `https://api.openweathermap.org/data/2.5/forecast?id=${townid}&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289`;
 
 fetch(forecastURL)
   .then((response) => response.json())
@@ -64,13 +81,14 @@ fetch(forecastURL)
       });
 
 //----------TOWN EVENTS----------------
-const townInfo = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const townData = 'https://byui-cit230.github.io/weather/data/towndata.json';
 
-fetch(townInfo)
+
+fetch(townData)
   .then((response) => response.json())
   .then((jsObject) => {
     const towns = jsObject['towns'];
-    const preston = towns.filter(i => (i.name == "Preston"));
+    const preston = towns.filter(i => (i.name == `${townName}`));
     const events = preston[0].events;
     for (let i = 0; i < events.length; i++) {
       let event = document.createElement('p');

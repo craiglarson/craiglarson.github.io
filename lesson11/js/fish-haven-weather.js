@@ -1,4 +1,5 @@
-const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289';
+const apiURL = 'api.openweathermap.org/data/2.5/weather?q={city name},{state code}&appid=b2df84ca600590f5e0eb74b31fdf2289';
+/*const apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289';*/
 /*-----FORECAST URL---http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289*/
 
 //CURRENT WEATHER API
