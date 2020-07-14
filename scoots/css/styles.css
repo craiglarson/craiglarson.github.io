@@ -1,10 +1,38 @@
 /*------COLORS-------*/
 /*-------FONTS-----------*/
-/*--------NAVIGATION---------------*/
-body {
+/*-------HEADER-------------------*/
+header {
   background-color: #FEF3C3;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+header img {
+  width: 100%;
+  max-width: 100px;
+  height: 100px;
+  margin: 20px 2%;
+}
+header div.header-copy {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+header div h1 {
+  margin-bottom: 0;
+  font-size: 3em;
+  font-family: "Seaweed Script", "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #FE7450;
+}
+header div h4 {
+  margin-top: 0;
+  font-size: 1.25em;
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #FE7450;
 }
 
+/*--------NAVIGATION---------------*/
 nav {
   background-color: #21A4B9;
   font-family: "Roboto", Arial, sans-serif;
