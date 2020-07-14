@@ -5,5 +5,17 @@ nav {
     ul {display: flex;}
     ul li {flex: 1 1 100%; text-align: center;}
     ul a {border: none;}
-
 } //end of nav
+
+/*-----------FOOTER-------------*/
+footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    div {flex: 1 1 100%;}
+    div.footer-social-icons {text-align: left; padding: 15px 0 0 5%;}
+    div.footer-copy {text-align: right;}
+    div.footer-copy p {margin: 0 5% 0 0;}
+    div.footer-copy p:first-child {padding-top: 0;}
+
+}

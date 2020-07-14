@@ -57,7 +57,9 @@ nav {
         padding: .8em 2%;
         color: $white;
     } //end nav ul li a
+    ul li a.active {color: yellow;}
     ul li a:hover {background-color: $aqua; color: $oceanBlue;}
+    
 } //end of nav
 
 /*-----------FOOOTER-------------*/

@@ -63,6 +63,9 @@ nav ul li a {
   padding: .8em 2%;
   color: #fff;
 }
+nav ul li a.active {
+  color: yellow;
+}
 nav ul li a:hover {
   background-color: #AFFDF8;
   color: #21A4B9;
@@ -76,6 +79,7 @@ footer {
   padding: 1em;
   font-family: "Roboto", Arial, sans-serif;
   color: #fff;
+  max-width: 1000px;
 }
 footer div.footer-social-icons img {
   width: 100%;
@@ -114,6 +118,29 @@ footer div.footer-copy p:last-child {
   }
   nav ul a {
     border: none;
+  }
+
+  /*-----------FOOTER-------------*/
+  footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  footer div {
+    flex: 1 1 100%;
+  }
+  footer div.footer-social-icons {
+    text-align: left;
+    padding: 15px 0 0 5%;
+  }
+  footer div.footer-copy {
+    text-align: right;
+  }
+  footer div.footer-copy p {
+    margin: 0 5% 0 0;
+  }
+  footer div.footer-copy p:first-child {
+    padding-top: 0;
   }
 }
 /*-------------LARGE CSS--------------*/
