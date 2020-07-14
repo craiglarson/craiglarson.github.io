@@ -58,6 +58,26 @@ nav {
         color: $white;
     } //end nav ul li a
     ul li a:hover {background-color: $aqua; color: $oceanBlue;}
-
-
 } //end of nav
+
+/*-----------FOOOTER-------------*/
+footer {
+    background-color: $oceanBlue;
+    text-align: center;
+    margin: 2% auto 0 auto;
+    padding: 1em;
+    font-family: $roboto;
+    color: #fff;
+    div.footer-social-icons img {
+        width: 100%;
+        max-width: 25px;
+        padding-right: 1em;
+    } //end of social img
+    div.footer-copy p {
+        margin-top: 0;
+        margin-bottom: 5px;
+    }
+    div.footer-copy p:first-child {padding-top: 15px;}
+    div.footer-copy p:nth-child(2) {font-size: .8em;}
+    div.footer-copy p:last-child {font-size: .8em;}
+} //End of Footer

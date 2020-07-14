@@ -68,6 +68,34 @@ nav ul li a:hover {
   color: #21A4B9;
 }
 
+/*-----------FOOOTER-------------*/
+footer {
+  background-color: #21A4B9;
+  text-align: center;
+  margin: 2% auto 0 auto;
+  padding: 1em;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #fff;
+}
+footer div.footer-social-icons img {
+  width: 100%;
+  max-width: 25px;
+  padding-right: 1em;
+}
+footer div.footer-copy p {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+footer div.footer-copy p:first-child {
+  padding-top: 15px;
+}
+footer div.footer-copy p:nth-child(2) {
+  font-size: .8em;
+}
+footer div.footer-copy p:last-child {
+  font-size: .8em;
+}
+
 /*------------MEDIUM CSS--------------*/
 @media only screen and (min-width: 560px) {
   /*-----------NAVIGATION------------*/
