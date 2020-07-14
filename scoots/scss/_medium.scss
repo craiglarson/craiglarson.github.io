@@ -1,0 +1,9 @@
+/*-----------NAVIGATION------------*/
+nav {
+    button {display: none;}
+    ul.hide {display: flex;}
+    ul {display: flex;}
+    ul li {flex: 1 1 100%; text-align: center;}
+    ul a {border: none; border-right: 1px solid #000;}
+
+} //end of nav
