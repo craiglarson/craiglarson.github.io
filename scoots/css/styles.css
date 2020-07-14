@@ -1,6 +1,10 @@
 /*------COLORS-------*/
 /*-------FONTS-----------*/
 /*--------NAVIGATION---------------*/
+body {
+  background-color: #FEF3C3;
+}
+
 nav {
   background-color: #21A4B9;
   font-family: "Roboto", Arial, sans-serif;
