@@ -1,10 +1,16 @@
+/*------COLORS-------*/
+/*-------FONTS-----------*/
 /*--------NAVIGATION---------------*/
+nav {
+  background-color: #21A4B9;
+  font-family: "Roboto", Arial, sans-serif;
+}
 nav button {
   background-color: transparent;
   border: none;
   margin: .2em 2%;
   font-size: 1.5em;
-  color: #000;
+  color: #fff;
   width: 96%;
   text-align: left;
 }
@@ -23,7 +29,11 @@ nav ul li a {
   text-decoration: none;
   display: block;
   padding: .8em 2%;
-  color: #000;
+  color: #fff;
+}
+nav ul li a:hover {
+  background-color: #AFFDF8;
+  color: #21A4B9;
 }
 
 /*------------MEDIUM CSS--------------*/
@@ -44,7 +54,6 @@ nav ul li a {
   }
   nav ul a {
     border: none;
-    border-right: 1px solid #000;
   }
 }
 /*-------------LARGE CSS--------------*/

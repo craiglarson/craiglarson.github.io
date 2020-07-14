@@ -1,11 +1,13 @@
 /*--------NAVIGATION---------------*/
 nav {
+    background-color: $oceanBlue;
+    font-family: $roboto;
     button {
         background-color: transparent;
         border: none;
         margin: .2em 2%;
         font-size: 1.5em;
-        color: #000;
+        color: #fff;
         width: 96%;
         text-align: left;
     } //end nav button
@@ -15,15 +17,14 @@ nav {
         padding: 0;
         margin: 0;
     } //end nav ul
-    ul.hide {
-        display: none;
-    }
+    ul.hide {display: none;}
     ul li a {
         text-decoration: none;
         display: block;
         padding: .8em 2%;
-        color: #000;
-    }
-    
+        color: $white;
+    } //end nav ul li a
+    ul li a:hover {background-color: $aqua; color: $oceanBlue;}
 
-}
+
+} //end of nav
