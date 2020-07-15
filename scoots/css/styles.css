@@ -67,7 +67,7 @@ nav ul li a.active {
   color: yellow;
 }
 nav ul li a:hover {
-  background-color: #AFFDF8;
+  background-color: #C3FDFA;
   color: #21A4B9;
 }
 
@@ -201,7 +201,7 @@ section.homepage-rental-info h2 {
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
 }
 section.homepage-rental-info div.homepage-rental-type div.homepage-rental-cards {
-  background-color: #AFFDF8;
+  background-color: #C3FDFA;
   text-align: center;
   max-width: 100%;
   margin: 1em 0;
