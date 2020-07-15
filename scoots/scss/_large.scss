@@ -1,0 +1,33 @@
+/*-------------HOMEPAGE------------------*/
+//RENTAL TYPES 
+section.homepage-rental-info div.homepage-rental-type {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1em;
+    div.homepage-rental-cards {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    div.homepage-rental-cards img {
+        grid-column: 1 / 2;
+    }
+    div.homepage-rental-cards div.homepage-rental-copy {
+        grid-column: 1 / 2;
+    }
+    div.homepage-rental-cards:nth-child(even) img {
+        grid-column: 1 / 2;
+    }
+    div.homepage-rental-cards:nth-child(even) div.homepage-rental-copy {
+        grid-column: 1 / 2;
+        margin-bottom: 2.5em;
+    }
+    div.homepage-rental-cards:last-child img {
+        grid-column: 1 / 2;
+    }
+    div.homepage-rental-cards:last-child div.homepage-rental-copy {
+        grid-column: 1 / 2;
+        margin-bottom: 4.5em;
+    }
+
+}

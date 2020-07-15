@@ -48,4 +48,34 @@ section.homepage-cozumel-info {
     div.homepage-cozumel-img picture img {
         box-shadow: 0 0 20px $charcoal;
     }
+}//END OF COZUMEL INFO
+
+//HOMEPAGE RENTAL TYPES
+section.homepage-rental-info div.homepage-rental-type { 
+    div.homepage-rental-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 1em;
+    padding: 1.5em;
+    }
+    div.homepage-rental-cards img {
+        box-shadow: 0 0 20px $charcoal;
+    }
+    div.homepage-rental-cards:nth-child(even) img {
+        grid-column: 1 / 2;
+    }
+    div.homepage-rental-cards:nth-child(even) div.homepage-rental-copy {
+        grid-column: 2 / 3;
+        grid-row: 1;
+    }
+    div.homepage-rental-cards p {
+        margin: 1em;
+    }      
 }
+
+
+
