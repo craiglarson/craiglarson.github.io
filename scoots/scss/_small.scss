@@ -123,7 +123,10 @@ div.homepage-intro {
         font-size: 1em;
         margin: .25em;
     }
-    section.homepage-intro-cta button {
+    section.homepage-intro-cta a {
+        text-decoration: none;
+    }
+    section.homepage-intro-cta a button {
         display: block;
         margin: 0 auto;
         background-color: $red;
@@ -138,4 +141,38 @@ div.homepage-intro {
         background-color: #A22101;
     }
 } //end of .homepage-intro
+
+//Homepage Cozumel Info
+section.homepage-cozumel-info {
+    background-color: $yellow;
+    border: 2px double $red;
+    padding: 1em;
+    margin-top: 1em;
+    h2 {
+        font-family: $headline;
+        color: $red;
+        text-align: center;
+        padding-top: 1em;
+        margin: .25em;
+    }
+    div.homepage-cozumel-copy {
+        padding: 1em;
+    }
+    div.homepage-cozumel-copy p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    div.homepage-cozumel-img picture {
+        display: block;  
+        margin: 1em;
+        padding: .25em;
+    }
+    div.homepage-cozumel-img picture img {
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
 

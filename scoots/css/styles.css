@@ -138,7 +138,10 @@ div.homepage-intro section.homepage-intro-cta p {
   font-size: 1em;
   margin: .25em;
 }
-div.homepage-intro section.homepage-intro-cta button {
+div.homepage-intro section.homepage-intro-cta a {
+  text-decoration: none;
+}
+div.homepage-intro section.homepage-intro-cta a button {
   display: block;
   margin: 0 auto;
   background-color: #FE7450;
@@ -151,6 +154,38 @@ div.homepage-intro section.homepage-intro-cta button {
 div.homepage-intro section.homepage-intro-cta button:hover {
   cursor: pointer;
   background-color: #A22101;
+}
+
+section.homepage-cozumel-info {
+  background-color: #FEF3C3;
+  border: 2px double #FE7450;
+  padding: 1em;
+  margin-top: 1em;
+}
+section.homepage-cozumel-info h2 {
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #FE7450;
+  text-align: center;
+  padding-top: 1em;
+  margin: .25em;
+}
+section.homepage-cozumel-info div.homepage-cozumel-copy {
+  padding: 1em;
+}
+section.homepage-cozumel-info div.homepage-cozumel-copy p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+section.homepage-cozumel-info div.homepage-cozumel-img picture {
+  display: block;
+  margin: 1em;
+  padding: .25em;
+}
+section.homepage-cozumel-info div.homepage-cozumel-img picture img {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
 }
 
 /*------------MEDIUM CSS--------------*/
@@ -207,6 +242,19 @@ div.homepage-intro section.homepage-intro-cta button:hover {
   div.homepage-intro section.homepage-intro-cta p {
     margin: .9em;
     font-size: 1.1em;
+  }
+
+  section.homepage-cozumel-info div.homepage-cozumel-copy {
+    column-count: 2;
+  }
+  section.homepage-cozumel-info div.homepage-cozumel-img {
+    display: flex;
+  }
+  section.homepage-cozumel-info div.homepage-cozumel-img picture {
+    flex: 1 1 100%;
+  }
+  section.homepage-cozumel-info div.homepage-cozumel-img picture img {
+    box-shadow: 0 0 20px #425561;
   }
 }
 /*-------------LARGE CSS--------------*/

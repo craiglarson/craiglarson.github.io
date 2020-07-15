@@ -33,4 +33,20 @@ div.homepage-intro {
         margin: .9em;
         font-size: 1.1em;
     }
+}//end of homepage intro
+
+//Homepage Cozumel Info
+section.homepage-cozumel-info {
+    div.homepage-cozumel-copy {
+        column-count: 2;
+    }
+    div.homepage-cozumel-img {
+        display: flex;
+    }
+    div.homepage-cozumel-img picture {
+        flex: 1 1 100%;
+    }
+    div.homepage-cozumel-img picture img {
+        box-shadow: 0 0 20px $charcoal;
+    }
 }
