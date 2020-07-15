@@ -83,3 +83,59 @@ footer {
     div.footer-copy p:nth-child(2) {font-size: .8em;}
     div.footer-copy p:last-child {font-size: .8em;}
 } //End of Footer
+
+/*-------------MAIN-------------------*/
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: $roboto;
+}
+
+/*------------HOMEPAGE----------------*/
+//INTRO SECTION
+div.homepage-intro {
+    position: relative;
+    picture {
+        display: block;
+        width: 100%;
+    }
+    picture img {
+        width: 100%;
+    }
+    section.homepage-intro-cta {
+        position: absolute;
+        width: 80%;
+        max-width: 400px;
+        background-color: $yellow;
+        padding: .75em;
+        top: 5%;
+        left: 5%;
+        opacity: .85;
+        margin: 0 auto;
+    }
+    section.homepage-intro-cta h3 {
+        font-family: $headline;
+        color: $red;
+        margin: .25em;
+    }
+    section.homepage-intro-cta p {
+        color: $charcoal;
+        font-size: 1em;
+        margin: .25em;
+    }
+    section.homepage-intro-cta button {
+        display: block;
+        margin: 0 auto;
+        background-color: $red;
+        border: none;
+        font-family: $headline;
+        color: #fff;
+        font-size: 1.5em;
+        padding: 2% 10%;
+    }
+    section.homepage-intro-cta button:hover {
+        cursor: pointer;
+        background-color: #A22101;
+    }
+} //end of .homepage-intro
+

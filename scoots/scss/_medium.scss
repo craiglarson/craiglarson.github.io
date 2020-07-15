@@ -17,5 +17,20 @@ footer {
     div.footer-copy {text-align: right;}
     div.footer-copy p {margin: 0 5% 0 0;}
     div.footer-copy p:first-child {padding-top: 0;}
+} //end of footer
 
+/*------------HOMEPAGE-------------------*/
+//HOMEPAGE INTRO
+div.homepage-intro {
+    section.homepage-intro-cta {
+        top: 10%;
+        opacity: .9;
+    }
+    section.homepage-intro-cta h3 {
+        margin: .75 em .25em;
+    }
+    section.homepage-intro-cta p {
+        margin: .9em;
+        font-size: 1.1em;
+    }
 }

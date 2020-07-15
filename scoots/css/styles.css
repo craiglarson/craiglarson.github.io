@@ -99,6 +99,60 @@ footer div.footer-copy p:last-child {
   font-size: .8em;
 }
 
+/*-------------MAIN-------------------*/
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+/*------------HOMEPAGE----------------*/
+div.homepage-intro {
+  position: relative;
+}
+div.homepage-intro picture {
+  display: block;
+  width: 100%;
+}
+div.homepage-intro picture img {
+  width: 100%;
+}
+div.homepage-intro section.homepage-intro-cta {
+  position: absolute;
+  width: 80%;
+  max-width: 400px;
+  background-color: #FEF3C3;
+  padding: .75em;
+  top: 5%;
+  left: 5%;
+  opacity: .85;
+  margin: 0 auto;
+}
+div.homepage-intro section.homepage-intro-cta h3 {
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #FE7450;
+  margin: .25em;
+}
+div.homepage-intro section.homepage-intro-cta p {
+  color: #425561;
+  font-size: 1em;
+  margin: .25em;
+}
+div.homepage-intro section.homepage-intro-cta button {
+  display: block;
+  margin: 0 auto;
+  background-color: #FE7450;
+  border: none;
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 2% 10%;
+}
+div.homepage-intro section.homepage-intro-cta button:hover {
+  cursor: pointer;
+  background-color: #A22101;
+}
+
 /*------------MEDIUM CSS--------------*/
 @media only screen and (min-width: 560px) {
   /*-----------NAVIGATION------------*/
@@ -140,6 +194,19 @@ footer div.footer-copy p:last-child {
   }
   footer div.footer-copy p:first-child {
     padding-top: 0;
+  }
+
+  /*------------HOMEPAGE-------------------*/
+  div.homepage-intro section.homepage-intro-cta {
+    top: 10%;
+    opacity: .9;
+  }
+  div.homepage-intro section.homepage-intro-cta h3 {
+    margin: .75 em .25em;
+  }
+  div.homepage-intro section.homepage-intro-cta p {
+    margin: .9em;
+    font-size: 1.1em;
   }
 }
 /*-------------LARGE CSS--------------*/
