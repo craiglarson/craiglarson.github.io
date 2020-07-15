@@ -112,6 +112,7 @@ div.homepage-intro {
         left: 5%;
         opacity: .9;
         margin: 0 auto;
+        border-radius: 5px;
     }
     section.homepage-intro-cta h3 {
         font-family: $headline;
@@ -135,6 +136,7 @@ div.homepage-intro {
         color: #fff;
         font-size: 1.5em;
         padding: 2% 10%;
+        border-radius: 5px;
     }
     section.homepage-intro-cta button:hover {
         cursor: pointer;
@@ -172,6 +174,7 @@ section.homepage-cozumel-info {
         width: 100%;
         max-width: 300px;
         margin: auto;
+        border-radius: 5px;
     }
 } //End of Cozumel Info
 
@@ -193,6 +196,7 @@ section.homepage-rental-info {
         max-width: 100%;
         margin: 1em 0;
         padding: .75em;
+        border-radius: 5px;
     }
     div.homepage-rental-type div.homepage-rental-cards h3 {
         font-family: $headline;
@@ -206,6 +210,7 @@ section.homepage-rental-info {
     div.homepage-rental-type div.homepage-rental-cards img {
         width: 100%;
         max-width: 300px;
+        border-radius: 5px;
     }
     a {
         text-decoration: none;
@@ -219,6 +224,7 @@ section.homepage-rental-info {
         padding: 2% 10%;
         font-size: 1.5em;
         font-family: $headline;
+        border-radius: 5px;
     }
     a button:hover {
         background-color: #A22101;
