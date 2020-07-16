@@ -24,12 +24,11 @@ fetch(currentWeatherURL)
         let image = document.getElementById("currentWeather-img");
         const imageSRC = `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
         image.setAttribute('src', imageSRC);
-        image.setAttribute('width', '75');
         let temp = jsObject.main.temp;
         let humidity = jsObject.main.humidity;
         let description = jsObject.weather[0].description;
-        document.getElementById('currentTemp').innerHTML = `${Math.round(temp)}&deg;F`;
-        document.getElementById('currentHumidity').innerHTML = `${Math.round(humidity)}% Humidity`;
+        document.getElementById('currentTemp').innerHTML = `Temp: ${Math.round(temp)}&deg;F`;
+        document.getElementById('currentHumidity').innerHTML = `Humidity: ${Math.round(humidity)}%`;
         document.getElementById('weatherDescription').innerHTML = description;        
     });
 
