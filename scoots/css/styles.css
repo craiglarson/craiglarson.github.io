@@ -269,7 +269,7 @@ div.currentWeather h3 {
 div.currentWeather div.currentWeather-card {
   background-color: #fff;
   border: 2px solid #425561;
-  width: 35%;
+  width: 45%;
   max-width: 150px;
   margin: 5% auto;
 }
@@ -295,7 +295,7 @@ div.currentWeather div.currentWeather-card span:last-child {
 }
 
 div.five-day-forecast {
-  display: block;
+  display: none;
   background-color: #C3FDFA;
   border: 2px solid #FE7450;
   border-radius: 5px;
@@ -329,7 +329,10 @@ div.five-day-forecast div.five-day-container div.five-day-card h4 {
   border-bottom: 2px solid #425561;
 }
 div.five-day-forecast div.five-day-container div.five-day-card img {
-  margin: .5em;
+  margin: 0;
+}
+div.five-day-forecast div.five-day-container div.five-day-card p {
+  margin-top: 0;
 }
 
 /*------------MEDIUM CSS--------------*/
@@ -424,6 +427,9 @@ div.five-day-forecast div.five-day-container div.five-day-card img {
     margin: 1em;
   }
 
+  div.five-day-forecast {
+    display: block;
+  }
   div.five-day-forecast div.five-day-container {
     display: flex;
     flex-wrap: nowrap;

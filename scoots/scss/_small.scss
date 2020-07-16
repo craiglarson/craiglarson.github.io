@@ -256,7 +256,7 @@ div.currentWeather {
     div.currentWeather-card {
         background-color: #fff;
         border: 2px solid $charcoal;
-        width: 35%;
+        width: 45%;
         max-width: 150px;
         margin: 5% auto;
     }
@@ -283,7 +283,7 @@ div.currentWeather {
     }
 }
 div.five-day-forecast {
-    display: block;
+    display: none;
     background-color: $aqua;
     border: 2px solid $red;
     border-radius: 5px;
@@ -316,8 +316,10 @@ div.five-day-forecast {
         border-bottom: 2px solid $charcoal;
     }
     div.five-day-container div.five-day-card img {
-        margin: .5em;
-        
+        margin: 0;        
+    }
+    div.five-day-container div.five-day-card p {
+        margin-top: 0;
     }
 
 }
