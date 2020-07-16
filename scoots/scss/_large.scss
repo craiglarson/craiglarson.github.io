@@ -29,5 +29,27 @@ section.homepage-rental-info div.homepage-rental-type {
         grid-column: 1 / 2;
         margin-bottom: 4.5em;
     }
-
+}
+//WEATHER SECTION 
+section.cozumel-weather {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1em;
+    grid-template-areas: 
+    "a a a a a a"
+    "b b c c c c"
+    "b b c c c c"
+    "b b c c c c";
+    h2 {
+        grid-area: a;
+    }
+    div.currentWeather {
+        grid-area: b;
+    }
+    div.five-day-forecast {
+        grid-area: c;
+    }
+    div.currentWeather div.currentWeather-card {
+        margin: 0 auto 10% auto;
+    }
 }
