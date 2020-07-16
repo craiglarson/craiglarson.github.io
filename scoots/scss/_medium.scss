@@ -77,5 +77,19 @@ section.homepage-rental-info div.homepage-rental-type {
     }      
 }
 
+//WEATHER SECTION
+div.five-day-forecast {
+    div.five-day-container {
+        display: flex;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        max-width: 650px;
+    }
+    div.five-day-container div.five-day-card {
+        flex: 1 1 auto;
+        margin: .25em .25em;
+    }
+}
 
 

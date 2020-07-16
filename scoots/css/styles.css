@@ -409,6 +409,18 @@ div.five-day-forecast div.five-day-container div.five-day-card img {
   section.homepage-rental-info div.homepage-rental-type div.homepage-rental-cards p {
     margin: 1em;
   }
+
+  div.five-day-forecast div.five-day-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    max-width: 650px;
+  }
+  div.five-day-forecast div.five-day-container div.five-day-card {
+    flex: 1 1 auto;
+    margin: .25em .25em;
+  }
 }
 /*-------------LARGE CSS--------------*/
 @media only screen and (min-width: 900px) {
