@@ -78,30 +78,9 @@ fetch(rentalURL)
     console.log(jsObject);
     const rentals = jsObject['rentals'];
     console.log(rentals);
-    for (let i = 0; i < rentals.length; i++ ) {
-        let tableRow = document.createElement('tr');
-        tableRow.setAttribute('class', 'tableData');
-        let rentalType = document.createElement('td');
-        let maxPersons = document.createElement('td');
-        let resHalfDay = document.createElement('td');
-        let resFullDay = document.createElement('td');
-        let walkHalfDay = document.createElement('td');
-        let walkFullDay = document.createElement('td');
-
-        rentalType.innerHTML = rentals[i].type;
-        maxPersons.innerHTML = rentals[i].maxPersons;
-        resHalfDay.innerHTML = rentals[i].reservationHalfDay;
-        resFullDay.innerHTML = rentals[i].reservationFullDay;
-        walkHalfDay.innerHTML = rentals[i].walkInHalfDay;
-        walkFullDay.innerHTML = rentals[i].walkInFullDay;
-
-        tableRow.appendChild(rentalType);
-        tableRow.appendChild(maxPersons);
-        tableRow.appendChild(resHalfDay);
-        tableRow.appendChild(resFullDay);
-        tableRow.appendChild(walkHalfDay);
-        tableRow.appendChild(walkFullDay);
-        
-        document.querySelector('table.pricing-table').appendChild(tableRow);
+    for (let i = 0; i < rentals.length; i++) {
+        let rentalCard = document.createElement('div');
+        rentalCard.setAttribute('class', 'rentalType-card');
+        let image = document.createElement('img');
     };
     });
