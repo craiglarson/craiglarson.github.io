@@ -320,6 +320,11 @@ div.five-day-forecast {
         margin-top: 0;
     }
 }
+//RENTAL INFO MAIN
+main.rental-information-main h2 {
+    font-family: $headline;
+    color: $red;
+}
 
 //RENTAL INFO PRICING TABLE
 section.rental-cards div.rentalType-card {
@@ -344,13 +349,14 @@ section.rental-cards div.rentalType-card {
         margin: 1em auto;
         background-color: #fff;
         color: $charcoal;
+        text-align: center;
     }
     table tr, table th, table td {
         border: 2px solid $red;
         padding: .25em 1em;
     }
     table th.mainHeader {
-        background-color: $aqua
+        background-color: $aqua;
     }
 }
 

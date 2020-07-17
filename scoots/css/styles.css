@@ -335,6 +335,11 @@ div.five-day-forecast div.five-day-container div.five-day-card p {
   margin-top: 0;
 }
 
+main.rental-information-main h2 {
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #FE7450;
+}
+
 section.rental-cards div.rentalType-card {
   border: 2px solid #FE7450;
   margin: .25em;
@@ -358,6 +363,7 @@ section.rental-cards div.rentalType-card table {
   margin: 1em auto;
   background-color: #fff;
   color: #425561;
+  text-align: center;
 }
 section.rental-cards div.rentalType-card table tr, section.rental-cards div.rentalType-card table th, section.rental-cards div.rentalType-card table td {
   border: 2px solid #FE7450;
