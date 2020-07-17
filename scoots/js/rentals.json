@@ -6,7 +6,8 @@
             "reservationHalfDay": "$20",
             "reservationFullDay": "$30",
             "walkInHalfDay": "$25",
-            "walkInFullDay": "$35"
+            "walkInFullDay": "$35",
+            "image": "images/rentals/honda1.jpg"
         },
         {
             "type": "Honda Dio Scooter",
@@ -14,7 +15,8 @@
             "reservationHalfDay": "$30",
             "reservationFullDay": "$40",
             "walkInHalfDay": "$35",
-            "walkInFullDay": "$45"
+            "walkInFullDay": "$45",
+            "image": "images/rentals/honda2.jpg"             
         },
         {
             "type": "Homda PCX150 Scooter",
@@ -22,7 +24,8 @@
             "reservationHalfDay": "$40",
             "reservationFullDay": "$50",
             "walkInHalfDay": "$45",
-            "walkInFullDay": "$55"  
+            "walkInFullDay": "$55",
+            "image": "images/rentals/honda3.jpg"  
         },
             
         {
@@ -31,7 +34,8 @@
             "reservationHalfDay": "$70",
             "reservationFullDay": "$100",
             "walkInHalfDay": "$85",
-            "walkInFullDay": "$125"  
+            "walkInFullDay": "$125",
+            "image": "images/rentals/jeep1.jpg"  
         },
         {
                     
@@ -40,7 +44,8 @@
             "reservationHalfDay": "$60",
             "reservationFullDay": "$85",
             "walkInHalfDay": "$70",
-            "walkInFullDay": "$90"  
+            "walkInFullDay": "$90",
+            "image": "images/rentals/jeep2.jpg"  
         },
         {
             "type": "Honda Pioneer ATV",
@@ -48,7 +53,8 @@
             "reservationHalfDay": "$50",
             "reservationFullDay": "$70",
             "walkInHalfDay": "$60",
-            "walkInFullDay": "$80"  
+            "walkInFullDay": "$80",
+            "image": "images/rentals/atv1.jpg"  
         }
     ]
 }
