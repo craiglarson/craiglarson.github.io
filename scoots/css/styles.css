@@ -342,7 +342,7 @@ main.rental-information-main h2 {
 
 section.rental-cards div.rentalType-card {
   border: 2px solid #FE7450;
-  margin: .25em;
+  margin: 1em;
   background-color: #FEF3C3;
   padding: 1em;
 }
@@ -484,7 +484,12 @@ section.rental-cards div.rentalType-card table th.mainHeader {
   section.rental-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1em;
+  }
+
+  section.rental-cards div.rentalType-card:hover {
+    box-shadow: 0 0 30px #425561;
+    margin: 0;
+    font-size: 1.05em;
   }
 }
 /*-------------LARGE CSS--------------*/

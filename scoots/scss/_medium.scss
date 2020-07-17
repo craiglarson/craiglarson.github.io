@@ -98,7 +98,11 @@ div.five-day-forecast {
 section.rental-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1em;
 }
 
+section.rental-cards div.rentalType-card:hover {
+    box-shadow: 0 0 30px $charcoal;
+    margin: 0;
+    font-size: 1.05em;
+}
 

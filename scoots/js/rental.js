@@ -35,9 +35,6 @@ fetch(rentalURL)
         let maxPersonHeader = document.createElement('th');
         let maxPerson = document.createElement('td');
         let tableRow2 = document.createElement('tr');
-        //let pricingHeader = document.createElement('th');
-        //pricingHeader.setAttribute('colspan', '2');
-        //pricingHeader.setAttribute('class', 'mainHeader');
         let tableRow3 = document.createElement('tr');
         let reservationHeader = document.createElement('th');
         reservationHeader.setAttribute('colspan', '2');
@@ -65,7 +62,6 @@ fetch(rentalURL)
         infoHeader.innerHTML = "Rental Info";
         maxPersonHeader.innerHTML = "Seats";
         maxPerson.innerHTML = rentals[i].maxPersons;
-        //pricingHeader.innerHTML = "Pricing";
         reservationHeader.innerHTML = "Reservation Pricing";
         resHalfDayHeader.innerHTML = "Half Day";
         resHalfDay.innerHTML = rentals[i].reservationHalfDay;
@@ -86,7 +82,6 @@ fetch(rentalURL)
         table.appendChild(maxPersonHeader);
         table.appendChild(maxPerson);
         table.appendChild(tableRow2);
-        //table.appendChild(pricingHeader);
         table.appendChild(tableRow3);
         table.appendChild(reservationHeader);
         table.appendChild(tableRow4);
