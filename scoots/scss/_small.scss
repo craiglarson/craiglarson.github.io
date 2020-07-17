@@ -322,5 +322,35 @@ div.five-day-forecast {
 }
 
 //RENTAL INFO PRICING TABLE
-
+section.rental-cards div.rentalType-card {
+    border: 2px solid $red;
+    margin: .25em;
+    background-color: $yellow;
+    padding: 1em;
+    h3 {
+        color: $red;
+        font-family: $headline;
+        text-align: center;
+    }
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 300px;
+    }
+    table {
+        border: 2px solid $red;
+        border-collapse: collapse;
+        margin: 1em auto;
+        background-color: #fff;
+        color: $charcoal;
+    }
+    table tr, table th, table td {
+        border: 2px solid $red;
+        padding: .25em 1em;
+    }
+    table th.mainHeader {
+        background-color: $aqua
+    }
+}
 

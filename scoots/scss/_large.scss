@@ -53,3 +53,8 @@ section.cozumel-weather {
         margin: 0 auto 10% auto;
     }
 }
+
+//RENTAL INFO PRCING TABLE
+section.rental-cards {
+    grid-template-columns: repeat(3, 1fr);
+}

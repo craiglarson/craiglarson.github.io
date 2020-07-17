@@ -335,6 +335,38 @@ div.five-day-forecast div.five-day-container div.five-day-card p {
   margin-top: 0;
 }
 
+section.rental-cards div.rentalType-card {
+  border: 2px solid #FE7450;
+  margin: .25em;
+  background-color: #FEF3C3;
+  padding: 1em;
+}
+section.rental-cards div.rentalType-card h3 {
+  color: #FE7450;
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  text-align: center;
+}
+section.rental-cards div.rentalType-card img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+}
+section.rental-cards div.rentalType-card table {
+  border: 2px solid #FE7450;
+  border-collapse: collapse;
+  margin: 1em auto;
+  background-color: #fff;
+  color: #425561;
+}
+section.rental-cards div.rentalType-card table tr, section.rental-cards div.rentalType-card table th, section.rental-cards div.rentalType-card table td {
+  border: 2px solid #FE7450;
+  padding: .25em 1em;
+}
+section.rental-cards div.rentalType-card table th.mainHeader {
+  background-color: #C3FDFA;
+}
+
 /*------------MEDIUM CSS--------------*/
 @media only screen and (min-width: 560px) {
   /*-----------NAVIGATION------------*/
@@ -442,6 +474,12 @@ div.five-day-forecast div.five-day-container div.five-day-card p {
     flex: 1 1 auto;
     margin: .25em .25em;
   }
+
+  section.rental-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+  }
 }
 /*-------------LARGE CSS--------------*/
 @media only screen and (min-width: 900px) {
@@ -494,5 +532,9 @@ div.five-day-forecast div.five-day-container div.five-day-card p {
   }
   section.cozumel-weather div.currentWeather div.currentWeather-card {
     margin: 0 auto 10% auto;
+  }
+
+  section.rental-cards {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

@@ -94,4 +94,11 @@ div.five-day-forecast {
     }
 }
 
+//RENTAL INFO PRICING TABLE
+section.rental-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+
 
