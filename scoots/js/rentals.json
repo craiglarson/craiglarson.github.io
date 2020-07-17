@@ -57,7 +57,7 @@
             "image": "images/rentals/atv1.jpg"  
         },
         {
-            "typ": "Honda Razor",
+            "type": "Honda Razor",
             "maxPersons": "4",
             "reservationHalfDay": "$75",
             "reservationFullDay": "$100",
