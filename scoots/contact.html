@@ -26,7 +26,48 @@
             <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
     </nav>
-
+    <main class="contact-main">
+        <section class="contact-locations">
+            <h2>Scoots Locations</h2>
+            <div class="scoots-locations">
+                <h3>El Centro de Cozumel Location</h3>
+                <p>Av. Rafael E. Melgar 123, Centro,<br>7760 San Migeul de Cozumel, Q.R., Mexico</p>
+                <p>+52 (987) 123-45678</p>
+                <a href="mailto: craig.larson87@gmail.com">info@scootsrentals.com</a>
+                <ul>Location Info: 
+                    <li>Walk-in Rentals Welcome</li>
+                    <li>Delivery to Hotel/AirBnB for 2+ Day Rentals</li>
+                    <li>Located within walking distance of the Playa Del Carmen Ferry Dock</li>
+                    <li>Conveniently located for Cruise based groups</li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5721.62419262841!2d-86.95128677781997!3d20.51039724134792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1595042021684!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="scoots-location">
+                <h3>Peurto Maya Location</h3>
+                <p>Av. Rafael E. Melgar Km 456, Centro,<br>77666 San Migeul de Cozumel, Q.R., Mexico</p>
+                <p>+52 (987) 987 - 6543</p>
+                <a href="mailto: craig.larson87@gmail.com">info@scootsrentals.com</a>
+                <ul>Location Info:
+                    <li>Located near Cruise terminals for easy access</li>
+                    <li>Reservations available through Cruise Lines</li>
+                    <li>Walk-in Rentals Welcome</li>
+                    <li>Rentals will be ready upon your cruise arrival!</li>
+                </ul>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3988.682710166546!2d-86.97673904230224!3d20.476294931366688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1595042109622!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+        <section class="contact-form">
+            <form method="GET" action="thank-you.html">
+                <fieldset>
+                    <legend>Contact Us</legend>
+                    <label for="contactPageName">Full Name: <input type="text" name="name" id="contactPageName" required pattern="[A-Za-z\s]{5,}"></label>
+                    <label for="contactPageEmail">email: <input type="email" name="email" id="contactPageEmail" required placeholder="example@gmail.com"></label>
+                    <label for="contactPageComment">Comment/Question: <textarea name="comment" id="contactPageComment"></textarea></label>
+                    <input type="submit" name="submit" value="Submit" class="contactPageSubmitBtn">
+                </fieldset>
+            </form>
+        </section>
+    </main>
     <footer>
         <div class="footer-social-icons">
             <a href="#"><img src="images/social/facebook.png" alt="Facebook Logo"></a>
