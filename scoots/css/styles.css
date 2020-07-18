@@ -1,5 +1,9 @@
 /*------COLORS-------*/
 /*-------FONTS-----------*/
+#pageID {
+  display: none;
+}
+
 /*-------HEADER-------------------*/
 header {
   background-color: #FEF3C3;
