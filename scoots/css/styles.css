@@ -349,6 +349,7 @@ main.rental-information-main h2 {
 
 section.rental-cards div.rentalType-card {
   border: 2px solid #FE7450;
+  border-radius: 5px;
   margin: 1em;
   background-color: #FEF3C3;
   padding: 1em;
