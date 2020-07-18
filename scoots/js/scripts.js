@@ -13,13 +13,14 @@ document.getElementById("footerDate").innerHTML = `${day[d.getDay()]}, ${months[
 //Last Modified
 document.getElementById("footerModified").innerHTML = document.lastModified;
 
-var pageID
-
+//PAGE ID
+var pageID = document.getElementById('pageID').textContent;
 
 //Current Weather
 var lat = 20.5083;
 var long = -86.9458;
 
+if (pageID == "homepage") {
 const currentWeatherURL = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&appid=b2df84ca600590f5e0eb74b31fdf2289`;
 
 fetch(currentWeatherURL)
@@ -70,10 +71,12 @@ fetch(fiveDayURL)
             document.querySelector('div.five-day-container').appendChild(card);
         });
     });
+};
 
 //RENTAL INFORMATION JSON
 const rentalURL ='https://craiglarson.github.io/scoots/js/rentals.json';
 
+if (pageID == "rentalpage") {
 fetch(rentalURL)
     .then((response) => response.json())
     .then((jsObject) => {
@@ -159,3 +162,4 @@ fetch(rentalURL)
         document.querySelector('section.rental-cards').appendChild(rentalCard);
     };
     });
+};
