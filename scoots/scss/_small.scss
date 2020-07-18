@@ -99,6 +99,7 @@ div.homepage-intro {
     }
     picture img {
         width: 100%;
+        border-radius: 0 0 5px 5px;
     }
     section.homepage-intro-cta {
         position: absolute;
@@ -127,12 +128,12 @@ div.homepage-intro {
     }
     section.homepage-intro-cta a button {
         display: block;
-        margin: 0 auto;
+        margin: .5em auto;
         background-color: $red;
         border: none;
         font-family: $headline;
         color: #fff;
-        font-size: 1.5em;
+        font-size: 1.25em;
         padding: 2% 10%;
         border-radius: 5px;
     }
@@ -146,6 +147,7 @@ div.homepage-intro {
 section.homepage-cozumel-info {
     background-color: $yellow;
     border: 2px double $red;
+    border-radius: 5px;
     padding: 1em;
     margin-top: 1em;
     h2 {
@@ -180,6 +182,7 @@ section.homepage-cozumel-info {
 section.homepage-rental-info {
     background-color: $yellow;
     border: 2px solid $red;
+    border-radius: 5px;
     margin: .75em 0;
     padding: 1.5em;
     color: $charcoal;
@@ -234,6 +237,7 @@ section.homepage-rental-info {
 section.cozumel-weather {
     background-color: $yellow;
     border: 2px solid $red;
+    border-radius: 5px;
     h2 {
         font-family: $headline;
         color: $red;
@@ -254,6 +258,7 @@ div.currentWeather {
     div.currentWeather-card {
         background-color: #fff;
         border: 2px solid $charcoal;
+        border-radius: 5px;
         width: 45%;
         max-width: 150px;
         margin: 5% auto;
@@ -299,6 +304,7 @@ div.five-day-forecast {
     div.five-day-container div.five-day-card {
         text-align: center;
         border: 2px solid $charcoal;
+        border-radius: 5px;
         margin: .5em auto;
         font-family: $roboto;
         color: $charcoal;

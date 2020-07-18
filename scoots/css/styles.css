@@ -116,6 +116,7 @@ div.homepage-intro picture {
 }
 div.homepage-intro picture img {
   width: 100%;
+  border-radius: 0 0 5px 5px;
 }
 div.homepage-intro section.homepage-intro-cta {
   position: absolute;
@@ -144,12 +145,12 @@ div.homepage-intro section.homepage-intro-cta a {
 }
 div.homepage-intro section.homepage-intro-cta a button {
   display: block;
-  margin: 0 auto;
+  margin: .5em auto;
   background-color: #FE7450;
   border: none;
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.25em;
   padding: 2% 10%;
   border-radius: 5px;
 }
@@ -161,6 +162,7 @@ div.homepage-intro section.homepage-intro-cta button:hover {
 section.homepage-cozumel-info {
   background-color: #FEF3C3;
   border: 2px double #FE7450;
+  border-radius: 5px;
   padding: 1em;
   margin-top: 1em;
 }
@@ -194,6 +196,7 @@ section.homepage-cozumel-info div.homepage-cozumel-img picture img {
 section.homepage-rental-info {
   background-color: #FEF3C3;
   border: 2px solid #FE7450;
+  border-radius: 5px;
   margin: .75em 0;
   padding: 1.5em;
   color: #425561;
@@ -247,6 +250,7 @@ section.homepage-rental-info a button:hover {
 section.cozumel-weather {
   background-color: #FEF3C3;
   border: 2px solid #FE7450;
+  border-radius: 5px;
 }
 section.cozumel-weather h2 {
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
@@ -269,6 +273,7 @@ div.currentWeather h3 {
 div.currentWeather div.currentWeather-card {
   background-color: #fff;
   border: 2px solid #425561;
+  border-radius: 5px;
   width: 45%;
   max-width: 150px;
   margin: 5% auto;
@@ -314,6 +319,7 @@ div.five-day-forecast div.five-day-container {
 div.five-day-forecast div.five-day-container div.five-day-card {
   text-align: center;
   border: 2px solid #425561;
+  border-radius: 5px;
   margin: .5em auto;
   font-family: "Roboto", Arial, sans-serif;
   color: #425561;

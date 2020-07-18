@@ -55,15 +55,6 @@
             "walkInHalfDay": "$60",
             "walkInFullDay": "$80",
             "image": "images/rentals/atv1.jpg"  
-        },
-        {
-            "type": "Honda Razor",
-            "maxPersons": "4",
-            "reservationHalfDay": "$75",
-            "reservationFullDay": "$100",
-            "walkInHalfDay": "$85",
-            "walkInFullDay": "$110",
-            "image": "images/rentals/atv1.jpg"
         }
     ]
 }
