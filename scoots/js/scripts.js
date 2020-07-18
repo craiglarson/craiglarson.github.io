@@ -74,9 +74,9 @@ fetch(fiveDayURL)
 };
 
 //RENTAL INFORMATION JSON
+if (pageID == "rentalpage") {
 const rentalURL ='https://craiglarson.github.io/scoots/js/rentals.json';
 
-if (pageID == "rentalpage") {
 fetch(rentalURL)
     .then((response) => response.json())
     .then((jsObject) => {

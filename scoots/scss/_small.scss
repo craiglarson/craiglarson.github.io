@@ -475,3 +475,65 @@ section.contactPage-form {
         color: $aqua;
     }   
 }//END of CONTACT FORM
+
+/*-------------RESERVATION PAGE---------------*/
+div.reservation-form form {
+    background-color: $yellow;
+    padding: 1.5em;
+    border-radius: 5px;
+    margin: 1em auto;
+    width: 80%;
+    max-width: 500px;
+    fieldset {
+        margin: 1.5em auto;
+        border: 2px solid $red;
+        border-radius: 5px;
+        padding: .5em 1em;
+    }
+    fieldset legend {
+        color: $red;
+        font-family: $headline;
+        font-size: 1.25em;
+        font-weight: bold;
+        margin: 0 1em; 
+        padding: 0 .5em;
+    }
+    fieldset label.top, fieldset div {
+        display: block;
+        padding-top: 1em;
+        color: $oceanBlue;
+    }
+    fieldset label.top input, fieldset label.top select {
+        display: block;
+        font-size: 1em;
+        border:1px solid $charcoal;
+        border-radius: 5px;
+        padding: 0.75em;
+        width: 80%;
+        max-width: 20em;
+        color: $charcoal;
+    }
+    fieldset label.sbs {
+        display: block;
+        color: $charcoal;
+    }
+    fieldset div.form-opt-ins {
+        color: $charcoal;
+    }
+    input.submitBTN {
+        border: none;
+        background-color: $red;
+        color: #fff;
+        border-radius: 5px;
+        padding: .75em 1.5em;
+        margin-bottom: 2em;
+        width: 96%;
+        max-width: 20em;
+        font-size: 1.1em;
+    }
+    input.submitBTN:hover {
+        background-color: $oceanBlue;
+        color: $aqua;
+        cursor: pointer;
+    }
+}   

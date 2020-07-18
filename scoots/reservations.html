@@ -27,7 +27,53 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    <main class="reservations-main">
+        <h2>Reserve your Adventure Today!</h2>
+        <section class="reservation-box">
+            <div class="reservation-requirements">
+                
+                <h2>Reservation Requirements</h2>
 
+            </div>
+            <div class="reservation-form">
+                <form method="GET" action="confirmation.html">
+                    <fieldset>
+                        <legend>Contact Information</legend>
+                        <label class="top" for="first_name">First Name: <input type="text" name="first_name" id="first_name" required pattern="[A-Za-z\s]{2,}"></label>
+                        <label class="top" for="last_name">Last Name: <input type="text" name="last_name" id="last_name" required pattern="[A-Za-z\s]{2,}"></label>
+                        <label class="top" for="email">email: <input type="email" name="email" id="email" required></label>
+                        <label class="top" for="phone">Phone: <input type="tel" name="phone" id="phone" required></label>
+                        <label class="top" for="zip">Zip <input type="number" name="zip" id="zip" required></label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Rental Information</legend>
+                        <label class="top" for="pickup_date">Pickup Date: <input type="date" name="pickup_date" id="pickup_date" value="" required></label>
+                        <label class="top" for="return_date">Return Date: <input type="date" name="return_date" id="return_date" value="" required></label>
+                        </label>
+                        <label class="top" for="rental_type">Rental Type: 
+                            <select name="rental_type" id="rental_type" required>
+                                <option value="" disabled selected>Select Rental Type</option>
+                                <option value="HondaMetro">Honda Metro Scooter</option>
+                                <option value="HondaDio">Honda Dio Scooter</option>
+                                <option value="HondaPCX">Honda PCX150 Scooter</option>
+                                <option value="HondaPioneer">Honda Pioneer ATV</option>
+                                <option value="Jeep4">Jeep Wrangler - 4 Door</option>
+                                <option value="Jeep2">Jeep Wrangler - 2 Door</option>
+                            </select>
+                        </label>
+                        <div>Full day or Half Day?</div>
+                        <label class="sbs"><input type="radio" name="fullOrHalf" class="fullOrHalf" value="Full">Full Day (3+ Hours)</label>
+                        <label class="sbs"><input type="radio" name="fullOrHalf" class="fullOrHalf" value="Half">Half Day (Less Than 3 Hours)</label>
+                        <div class="form-opt-ins">
+                        <label class="sbs" for="ageVerification"><input type="checkbox" name="ageVerification" id="ageVerification" required>Are you at lest 18 years of age?</label>
+                        <label class="sbs" for="driversLicense"><input type="checkbox" name="driversLicense" id="driversLicense" required>Do you have a valid drivers license?</label>
+                        </div>
+                    </fieldset>
+                    <input type="submit" name="submit" value="Reserve Your Adventure" class="submitBTN">
+                </form>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="footer-social-icons">
             <a href="#"><img src="images/social/facebook.png" alt="Facebook Logo"></a>
