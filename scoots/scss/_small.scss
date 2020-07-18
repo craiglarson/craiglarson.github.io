@@ -370,6 +370,7 @@ section.contact-locations {
     div.scoots-locations {
         background-color: $yellow;
         border: 2px solid $red;
+        border-radius: 5px;
         padding: .25em 1em;
         margin: 1em 0;
     }
@@ -391,6 +392,7 @@ section.contact-locations {
 section.contact-FAQ {
     background-color: $yellow;
     border: 2px solid $red;
+    border-radius: 5px;
     padding: 1em 2em;
     margin: 1em 0;
     h2, h3 {
@@ -408,3 +410,59 @@ section.contact-FAQ {
         margin-top: 0;
     }
 }
+
+//CONTACT FORM
+section.contactPage-form {
+    margin: 1em;
+    form {
+        width: 80%;
+        max-width: 500px;
+        background-color: $yellow;
+        border: 2px solid $red;
+        margin: 1em auto;
+        padding: 1.5em;
+        border-radius: 5px;
+        opacity: .95;
+    }
+    form fieldset {
+        border: 2px solid $oceanBlue;
+        border-radius: 5px;
+    }
+    form fieldset legend {
+        color: $oceanBlue;
+        font-weight: bold;
+        margin: 0 1em;
+        padding: 0 .5em;
+    }
+    form fieldset label {
+        display: block;
+        padding-top: 1em;
+        color: $red;
+    }
+    form fieldset label input, form fieldset label textarea {
+        display: block;
+        font-size: 1em;
+        padding: 0.75em;
+        width: 80%;
+        max-width: 20em;
+        border: 1px solid $charcoal;
+        border-radius: 5px;
+    }
+    form fieldset input.contactPageSubmitBtn {
+        border: none;
+        background-color: $red;
+        color: #fff;
+        border-radius: 5px;
+        padding: .75em 1.5em;
+        margin: 1.5em 0;
+        width: 100%;
+        max-width: 20em;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    form fieldset input.contactPageSubmitBtn:hover {
+        background-color: $oceanBlue;
+        cursor: pointer;
+        color: $aqua;
+    }   
+}//END of CONTACT FORM

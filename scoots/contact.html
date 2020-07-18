@@ -40,7 +40,7 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5721.62419262841!2d-86.95128677781997!3d20.51039724134792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1595042021684!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
             <div class="scoots-locations">
-                <h2>Peurto Maya Location</h2>
+                <h2>Puerto Maya Location</h2>
                 <div class="location-copy"> 
                 <h3>Contact Info:</h3>               
                 <p>Av. Rafael E. Melgar Km 456, Centro,<br>77666 San Migeul de Cozumel, Q.R., Mexico</p>
@@ -50,20 +50,31 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3988.682710166546!2d-86.97673904230224!3d20.476294931366688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1595042109622!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </section>
+        <section class="contactPage-form">
+            <form method="GET" action="thank-you.html">
+                <fieldset>
+                    <legend>Need to Contact Us?</legend>
+                    <label for="contactPageName">Full Name: <input type="text" name="name" id="contactPageName" required pattern="[A-Za-z\s]{5,}"></label>
+                    <label for="contactPageEmail">email: <input type="email" name="email" id="contactPageEmail" required placeholder="example@gmail.com"></label>
+                    <label for="contactPageComment">Comment/Question: <textarea name="comment" id="contactPageComment" rows="6"></textarea></label>
+                    <input type="submit" name="submit" value="Ask Away" class="contactPageSubmitBtn">
+                </fieldset>
+            </form>
+        </section>
         <section class="contact-FAQ">
             <h2>FAQs</h2>
             <h3>Do I have to have a reservation or can I walk in and get a rental?</h3>
             <p>We do accept walk-ins but rentals may be limited based on the number of reservations for the day. Walk-in rentals also cost a little bit more than reservations.
             </p>
             <h3>What's the easiest way to make a reservation if I am coming on a cruise?</h3>
-            <p>You can either book through your cruiseline or here on our website. Both ways are easy and convenient</p>
+            <p>You can either book through your cruiseline or here on our website. Both ways are easy and convenient.</p>
             <h3>Can you bring my rentals to me at my hotel?</h3>
             <p>We do deliver rentals for reservations that are 2+ days long. We will bring your rental and drop it off directly at your hotel, airBnB, or wherever you are staying. 
                 We typically set an hour window and dropoff your rental within that hour. 
             </p>
             <h3>Can I pickup my rental at one location and dropoff at another?</h3>
             <p>Yes! It's completely fine to pickup at one of our locations and to dropoff at the other. We want to make the rental process as convenient for you as possible.</p>
-            <h3>Is there any age restrictions with your rentals?</h3>
+            <h3>Are there any age restrictions with your rentals?</h3>
             <p>Yes, there are age restrictions. You must be at least 18 years old to rental one of our scooters, jeeps, or ATVs. For liabilty reasons, nobody under the age of 
                 12 is allowed to ride on the scooters.
             </p>
@@ -75,17 +86,7 @@
             </p>
             
         </section>
-        <section class="contact-form">
-            <form method="GET" action="thank-you.html">
-                <fieldset>
-                    <legend>Additional Questions</legend>
-                    <label for="contactPageName">Full Name: <input type="text" name="name" id="contactPageName" required pattern="[A-Za-z\s]{5,}"></label>
-                    <label for="contactPageEmail">email: <input type="email" name="email" id="contactPageEmail" required placeholder="example@gmail.com"></label>
-                    <label for="contactPageComment">Comment/Question: <textarea name="comment" id="contactPageComment"></textarea></label>
-                    <input type="submit" name="submit" value="Submit" class="contactPageSubmitBtn">
-                </fieldset>
-            </form>
-        </section>
+        
     </main>
     <footer>
         <div class="footer-social-icons">
