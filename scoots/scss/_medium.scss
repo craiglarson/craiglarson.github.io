@@ -93,7 +93,7 @@ div.five-day-forecast {
         margin: .25em .25em;
     }
 }
-
+/*---------------RENTAL INFORMATION PAGE-----------*/
 //RENTAL INFO PRICING TABLE
 section.rental-cards {
     display: grid;
@@ -106,3 +106,31 @@ section.rental-cards div.rentalType-card:hover {
     font-size: 1.05em;
 }
 
+/*--------------CONTACT PAGE---------------*/
+//Contact Info Boxes
+section.contact-locations {
+    div.scoots-locations {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "a a"
+        "b c";
+        align-items: center;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+    }
+    div.scoots-locations h2 {
+        grid-area: a;
+        text-align: center;
+    }
+    div.scoots-locations div.location-copy {
+        grid-area: b;
+        font-size: 1.25em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+    }
+    div.scoots-locations iframe {
+        grid-area: c;
+    }
+}

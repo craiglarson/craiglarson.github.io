@@ -335,6 +335,7 @@ div.five-day-forecast div.five-day-container div.five-day-card p {
   margin-top: 0;
 }
 
+/*----------------RENTAL INFORMATION PAGE------------------*/
 main.rental-information-main h2 {
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
   color: #FE7450;
@@ -371,6 +372,53 @@ section.rental-cards div.rentalType-card table tr, section.rental-cards div.rent
 }
 section.rental-cards div.rentalType-card table th.mainHeader {
   background-color: #C3FDFA;
+}
+
+/*--------------CONTACT PAGE---------------*/
+section.contact-locations h2, section.contact-locations h3 {
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #FE7450;
+}
+section.contact-locations div.scoots-locations {
+  background-color: #FEF3C3;
+  border: 2px solid #FE7450;
+  padding: .25em 1em;
+  margin: 1em 0;
+}
+section.contact-locations div.scoots-locations p {
+  margin: 1em 0;
+  color: #425561;
+}
+section.contact-locations div.scoots-locations a:hover {
+  color: #FE7450;
+}
+section.contact-locations div.scoots-locations iframe {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 1em 0;
+}
+
+section.contact-FAQ {
+  background-color: #FEF3C3;
+  border: 2px solid #FE7450;
+  padding: 1em 2em;
+  margin: 1em 0;
+}
+section.contact-FAQ h2, section.contact-FAQ h3 {
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+}
+section.contact-FAQ h2 {
+  color: #FE7450;
+}
+section.contact-FAQ h3 {
+  color: #21A4B9;
+  margin-top: 1.5em;
+  margin-bottom: .25em;
+}
+section.contact-FAQ p {
+  color: #425561;
+  margin-top: 0;
 }
 
 /*------------MEDIUM CSS--------------*/
@@ -481,6 +529,7 @@ section.rental-cards div.rentalType-card table th.mainHeader {
     margin: .25em .25em;
   }
 
+  /*---------------RENTAL INFORMATION PAGE-----------*/
   section.rental-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -490,6 +539,30 @@ section.rental-cards div.rentalType-card table th.mainHeader {
     box-shadow: 0 0 30px #425561;
     margin: 0;
     font-size: 1.05em;
+  }
+
+  /*--------------CONTACT PAGE---------------*/
+  section.contact-locations div.scoots-locations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "a a" "b c";
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+  section.contact-locations div.scoots-locations h2 {
+    grid-area: a;
+    text-align: center;
+  }
+  section.contact-locations div.scoots-locations div.location-copy {
+    grid-area: b;
+    font-size: 1.25em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+  }
+  section.contact-locations div.scoots-locations iframe {
+    grid-area: c;
   }
 }
 /*-------------LARGE CSS--------------*/

@@ -320,6 +320,7 @@ div.five-day-forecast {
         margin-top: 0;
     }
 }
+/*----------------RENTAL INFORMATION PAGE------------------*/
 //RENTAL INFO MAIN
 main.rental-information-main h2 {
     font-family: $headline;
@@ -357,5 +358,53 @@ section.rental-cards div.rentalType-card {
     }
     table th.mainHeader {
         background-color: $aqua;
+    }
+}
+/*--------------CONTACT PAGE---------------*/
+//Contact Info Boxes
+section.contact-locations {
+    h2, h3 {
+        font-family: $headline;
+        color: $red;
+    }
+    div.scoots-locations {
+        background-color: $yellow;
+        border: 2px solid $red;
+        padding: .25em 1em;
+        margin: 1em 0;
+    }
+    div.scoots-locations p {
+        margin: 1em 0;
+        color: $charcoal;
+    }
+    div.scoots-locations a:hover {
+        color: $red;
+    }
+    div.scoots-locations iframe {
+        display: block;
+        width: 100%;
+        max-width: 400px;
+        margin: 1em 0;
+    }
+} //End of Location Boxes
+//FAQs
+section.contact-FAQ {
+    background-color: $yellow;
+    border: 2px solid $red;
+    padding: 1em 2em;
+    margin: 1em 0;
+    h2, h3 {
+        font-family: $headline;
+    }
+    h2 {
+        color: $red;
+    }
+    h3 {
+        color: $oceanBlue;
+        margin-top: 1.5em;
+        margin-bottom: .25em;
+    }
+    p {color: $charcoal; 
+        margin-top: 0;
     }
 }
