@@ -28,15 +28,16 @@
         </ul>
     </nav>
     <main class="reservations-main">
-        <h2>Reserve your Adventure Today!</h2>
         <section class="reservation-box">
             <div class="reservation-requirements">
                 
                 <h2>Reservation Requirements</h2>
+                
 
             </div>
             <div class="reservation-form">
                 <form method="GET" action="confirmation.html">
+                    <h3>Reserve Your Adventure Today!</h3>
                     <fieldset>
                         <legend>Contact Information</legend>
                         <label class="top" for="first_name">First Name: <input type="text" name="first_name" id="first_name" required pattern="[A-Za-z\s]{2,}"></label>
@@ -49,9 +50,45 @@
                         <legend>Rental Information</legend>
                         <label class="top" for="pickup_date">Pickup Date: <input type="date" name="pickup_date" id="pickup_date" value="" required></label>
                         <label class="top" for="return_date">Return Date: <input type="date" name="return_date" id="return_date" value="" required></label>
+                        <label class="top" for="pickup_time">Pickup Time: 
+                            <select name="pickup_time" id="pickup_time" required>
+                                <option value="" disabled selected>Pickup Time</option>
+                                <option value="7AM">7AM</option>
+                                <option value="8AM">8AM</option>
+                                <option value="9AM">9AM</option>
+                                <option value="10AM">10AM</option>
+                                <option value="11AM">11AM</option>
+                                <option value="12PM">12PM</option>
+                                <option value="1PM">1PM</option>
+                                <option value="2PM">2PM</option>
+                                <option value="3PM">3PM</option>
+                                <option value="4PM">4PM</option>
+                                <option value="5PM">5PM</option>
+                                <option value="6PM">6PM</option>
+                                <option value="7PM">7PM</option>
+                            </select>
                         </label>
+                        <label class="top" for="dropoff_time">Dropoff Time: 
+                            <select name="dropoff_time" id="dropoff_time" required>
+                                <option value="" disabled selected>Pickup Time</option>
+                                <option value="7AM">7AM</option>
+                                <option value="8AM">8AM</option>
+                                <option value="9AM">9AM</option>
+                                <option value="10AM">10AM</option>
+                                <option value="11AM">11AM</option>
+                                <option value="12PM">12PM</option>
+                                <option value="1PM">1PM</option>
+                                <option value="2PM">2PM</option>
+                                <option value="3PM">3PM</option>
+                                <option value="4PM">4PM</option>
+                                <option value="5PM">5PM</option>
+                                <option value="6PM">6PM</option>
+                                <option value="7PM">7PM</option>
+                            </select>
+                        </label>
+            
                         <label class="top" for="rental_type">Rental Type: 
-                            <select name="rental_type" id="rental_type" required>
+                            <select name="rental_type" id="rental_type" onchange="rentalType(this.vaule)" required>
                                 <option value="" disabled selected>Select Rental Type</option>
                                 <option value="HondaMetro">Honda Metro Scooter</option>
                                 <option value="HondaDio">Honda Dio Scooter</option>
@@ -60,6 +97,13 @@
                                 <option value="Jeep4">Jeep Wrangler - 4 Door</option>
                                 <option value="Jeep2">Jeep Wrangler - 2 Door</option>
                             </select>
+                            <label class="top" for="pickup_location">Pickup Time: 
+                                <select name="pickup_location" id="pickup_location" required>
+                                    <option value="" disabled selected>Pickup Location</option>
+                                    <option value="El_Centro_de_Cozumel">El Centro De Cozumel</option>
+                                    <option value="Puerto_Maya">Puerto Maya</option>
+                                </select>
+                            </label>
                         </label>
                         <div>Full day or Half Day?</div>
                         <label class="sbs"><input type="radio" name="fullOrHalf" class="fullOrHalf" value="Full">Full Day (3+ Hours)</label>
@@ -69,6 +113,7 @@
                         <label class="sbs" for="driversLicense"><input type="checkbox" name="driversLicense" id="driversLicense" required>Do you have a valid drivers license?</label>
                         </div>
                     </fieldset>
+                    <span id="reservationTotal"></span>
                     <input type="submit" name="submit" value="Reserve Your Adventure" class="submitBTN">
                 </form>
             </div>

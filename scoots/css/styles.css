@@ -498,6 +498,10 @@ div.reservation-form form {
   width: 80%;
   max-width: 500px;
 }
+div.reservation-form form h3 {
+  color: #FE7450;
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+}
 div.reservation-form form fieldset {
   margin: 1.5em auto;
   border: 2px solid #FE7450;

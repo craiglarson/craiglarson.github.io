@@ -484,6 +484,10 @@ div.reservation-form form {
     margin: 1em auto;
     width: 80%;
     max-width: 500px;
+    h3 {
+        color: $red;
+        font-family: $headline;
+    }
     fieldset {
         margin: 1.5em auto;
         border: 2px solid $red;
