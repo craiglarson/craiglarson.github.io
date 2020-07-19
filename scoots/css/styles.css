@@ -71,7 +71,7 @@ nav ul li a.active {
   color: yellow;
 }
 nav ul li a:hover {
-  background-color: #C3FDFA;
+  background-color: #D7FEFB;
   color: #21A4B9;
 }
 
@@ -211,7 +211,7 @@ section.homepage-rental-info h2 {
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
 }
 section.homepage-rental-info div.homepage-rental-type div.homepage-rental-cards {
-  background-color: #C3FDFA;
+  background-color: #D7FEFB;
   text-align: center;
   max-width: 100%;
   margin: 1em 0;
@@ -264,7 +264,7 @@ section.cozumel-weather h2 {
 
 div.currentWeather {
   font-family: "Roboto", Arial, sans-serif;
-  background-color: #C3FDFA;
+  background-color: #D7FEFB;
   border: 2px solid #FE7450;
   border-radius: 5px;
   margin: 1em;
@@ -305,7 +305,7 @@ div.currentWeather div.currentWeather-card span:last-child {
 
 div.five-day-forecast {
   display: none;
-  background-color: #C3FDFA;
+  background-color: #D7FEFB;
   border: 2px solid #FE7450;
   border-radius: 5px;
   margin: 1em;
@@ -382,7 +382,7 @@ section.rental-cards div.rentalType-card table tr, section.rental-cards div.rent
   padding: .25em 1em;
 }
 section.rental-cards div.rentalType-card table th.mainHeader {
-  background-color: #C3FDFA;
+  background-color: #D7FEFB;
 }
 
 /*--------------CONTACT PAGE---------------*/
@@ -486,10 +486,16 @@ section.contactPage-form form fieldset input.contactPageSubmitBtn {
 section.contactPage-form form fieldset input.contactPageSubmitBtn:hover {
   background-color: #21A4B9;
   cursor: pointer;
-  color: #C3FDFA;
+  color: #D7FEFB;
 }
 
 /*-------------RESERVATION PAGE---------------*/
+main.reservations-main h2 {
+  text-align: center;
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #FE7450;
+}
+
 div.reservation-form form {
   background-color: #FEF3C3;
   padding: 1.5em;
@@ -550,8 +556,45 @@ div.reservation-form form input.submitBTN {
 }
 div.reservation-form form input.submitBTN:hover {
   background-color: #21A4B9;
-  color: #C3FDFA;
+  color: #D7FEFB;
   cursor: pointer;
+}
+
+div.reservation-requirements img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 1em auto;
+}
+div.reservation-requirements div.reservation-copy {
+  margin: 0 auto;
+  background-color: #D7FEFB;
+  padding: 1em;
+  border: 2px solid #FE7450;
+  border-radius: 5px;
+  width: 85%;
+  max-width: 500px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+div.reservation-requirements h3 {
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #FE7450;
+  margin-bottom: .5em;
+}
+div.reservation-requirements ul {
+  list-style-type: none;
+}
+div.reservation-requirements li {
+  color: #425561;
+  padding: .5em 0;
+}
+div.reservation-requirements li::before {
+  content: "\2022";
+  color: #FE7450;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 /*------------MEDIUM CSS--------------*/
@@ -753,5 +796,28 @@ div.reservation-form form input.submitBTN:hover {
 
   section.rental-cards {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  /*----------RESERVATION PAGE-------------*/
+  section.reservation-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  section.reservation-box div.reservation-requirements {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  section.reservation-box div.reservation-requirements img {
+    margin: 3em auto 2em auto;
+  }
+  section.reservation-box div.reservation-requirements div.reservation-copy {
+    width: 90%;
+  }
+  section.reservation-box div.reservation-requirements div.reservation-copy li {
+    padding: 1em 0;
+  }
+  section.reservation-box div.reservation-form {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
   }
 }

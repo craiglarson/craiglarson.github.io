@@ -58,3 +58,26 @@ section.cozumel-weather {
 section.rental-cards {
     grid-template-columns: repeat(3, 1fr);
 }
+
+/*----------RESERVATION PAGE-------------*/ 
+section.reservation-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    div.reservation-requirements {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    div.reservation-requirements img {
+        margin: 3em auto 2em auto;
+    }
+    div.reservation-requirements div.reservation-copy {
+        width: 90%;
+    }
+    div.reservation-requirements div.reservation-copy li {
+        padding: 1em 0;
+    }
+    div.reservation-form {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+}
