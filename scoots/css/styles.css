@@ -440,7 +440,7 @@ section.contactPage-form {
 section.contactPage-form form {
   width: 80%;
   max-width: 500px;
-  background-color: #FEF3C3;
+  background-color: #D7FEFB;
   border: 2px solid #FE7450;
   margin: 1em auto;
   padding: 1.5em;
@@ -448,11 +448,11 @@ section.contactPage-form form {
   opacity: .95;
 }
 section.contactPage-form form fieldset {
-  border: 2px solid #21A4B9;
+  border: 2px solid #FE7450;
   border-radius: 5px;
 }
 section.contactPage-form form fieldset legend {
-  color: #21A4B9;
+  color: #FE7450;
   font-weight: bold;
   margin: 0 1em;
   padding: 0 .5em;
@@ -597,6 +597,61 @@ div.reservation-requirements li::before {
   margin-left: -1em;
 }
 
+/*-------------THANK YOU PAGE------------*/
+section.thank-you-section {
+  background-color: #D7FEFB;
+  border: 2px solid #FE7450;
+  margin: 1em auto;
+  border-radius: 5px;
+  padding: 1em;
+}
+section.thank-you-section h2 {
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #FE7450;
+  text-align: center;
+}
+section.thank-you-section h3 {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #425561;
+  text-align: center;
+}
+
+section.more-information {
+  background-color: #FEF3C3;
+  border: 2px solid #FE7450;
+  padding: 1em;
+  border-radius: 5px;
+}
+section.more-information h3 {
+  font-family: "Roboto", Arial, sans-serif;
+  color: #425561;
+}
+section.more-information a {
+  text-decoration: none;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+}
+section.more-information figure {
+  width: 100%;
+  max-width: 400px;
+  margin: 1em auto;
+  border: 2px solid #FE7450;
+  background-color: #FE7450;
+}
+section.more-information figcaption {
+  font-size: 1.5em;
+  background-color: #FE7450;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-top: 2px solid #FE7450;
+}
+section.more-information img {
+  width: 100%;
+  max-width: 400px;
+}
+
 /*------------MEDIUM CSS--------------*/
 @media only screen and (min-width: 560px) {
   /*-----------NAVIGATION------------*/
@@ -739,6 +794,19 @@ div.reservation-requirements li::before {
   }
   section.contact-locations div.scoots-locations iframe {
     grid-area: c;
+  }
+
+  /*-----------THANK YOU PAGE---------------*/
+  section.more-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+  }
+  section.more-information h3 {
+    grid-column: 1 / 3;
+  }
+  section.more-information figure:hover {
+    box-shadow: 0 0 20px #425561;
   }
 }
 /*-------------LARGE CSS--------------*/
