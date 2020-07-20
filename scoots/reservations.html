@@ -43,7 +43,18 @@
                     </fieldset>
                     <fieldset>
                         <legend>Rental Information</legend>
-                        <label class="top" for="pickup_date">Pickup Date: <input type="date" name="pickup_date" id="pickup_date" value="" required></label>
+                        <label class="top" for="rental_type">Rental Type: 
+                            <select name="rental_type" id="rental_type" onchange="rentalType(this.vaule)" required>
+                                <option value="" disabled selected>Select Rental Type</option>
+                                <option value="0">Honda Metro Scooter</option>
+                                <option value="1">Honda Dio Scooter</option>
+                                <option value="2">Honda PCX150 Scooter</option>
+                                <option value="3">Honda Pioneer ATV</option>
+                                <option value="4">Jeep Wrangler - 4 Door</option>
+                                <option value="5">Jeep Wrangler - 2 Door</option>
+                            </select>
+                        </label>    
+                        <label class="top" for="pickup_date">Pickup Date: <input type="date" name="pickup_date" id="pickup_date" value="" required onchange="pickupDate(this.value)"></label>
                         <label class="top" for="return_date">Return Date: <input type="date" name="return_date" id="return_date" value="" required></label>
                         <label class="top" for="pickup_time">Pickup Time: 
                             <select name="pickup_time" id="pickup_time" required>
@@ -80,18 +91,8 @@
                                 <option value="6PM">6PM</option>
                                 <option value="7PM">7PM</option>
                             </select>
-                        </label>
-            
-                        <label class="top" for="rental_type">Rental Type: 
-                            <select name="rental_type" id="rental_type" onchange="rentalType(this.vaule)" required>
-                                <option value="" disabled selected>Select Rental Type</option>
-                                <option value="HondaMetro">Honda Metro Scooter</option>
-                                <option value="HondaDio">Honda Dio Scooter</option>
-                                <option value="HondaPCX">Honda PCX150 Scooter</option>
-                                <option value="HondaPioneer">Honda Pioneer ATV</option>
-                                <option value="Jeep4">Jeep Wrangler - 4 Door</option>
-                                <option value="Jeep2">Jeep Wrangler - 2 Door</option>
-                            </select>
+                        </label>            
+                        
                             <label class="top" for="pickup_location">Pickup Time: 
                                 <select name="pickup_location" id="pickup_location" required>
                                     <option value="" disabled selected>Pickup Location</option>
@@ -108,7 +109,8 @@
                         <label class="sbs" for="driversLicense"><input type="checkbox" name="driversLicense" id="driversLicense" required>Do you have a valid drivers license?</label>
                         </div>
                     </fieldset>
-                    <span id="reservationTotal"></span>
+                    <p>Rental Type: <span id="reservationType"></span></p>
+                    <p>Rental Price: <span id="reservationTotal"></span></p>
                     <input type="submit" name="submit" value="Reserve Your Adventure" class="submitBTN">
                 </form>
             </div>
