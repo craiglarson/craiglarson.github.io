@@ -147,7 +147,7 @@ div.homepage-intro section.homepage-intro-cta p {
 div.homepage-intro section.homepage-intro-cta a {
   text-decoration: none;
 }
-div.homepage-intro section.homepage-intro-cta a button {
+div.homepage-intro section.homepage-intro-cta button {
   display: block;
   margin: .5em auto;
   background-color: #FE7450;
@@ -155,12 +155,19 @@ div.homepage-intro section.homepage-intro-cta a button {
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
   color: #fff;
   font-size: 1.25em;
-  padding: 2% 10%;
   border-radius: 5px;
+  padding: 0;
+}
+div.homepage-intro section.homepage-intro-cta button a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  padding: .5em 1em;
 }
 div.homepage-intro section.homepage-intro-cta button:hover {
   cursor: pointer;
-  background-color: #A22101;
+  background-color: #21A4B9;
 }
 
 section.homepage-cozumel-info {
