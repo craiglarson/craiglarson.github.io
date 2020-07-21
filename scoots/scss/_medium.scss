@@ -147,3 +147,16 @@ section.more-information {
         box-shadow: 0 0 20px $charcoal;
     }
 }
+/*-----------TOURS PAGE-------------------*/
+section.tours-intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    picture {
+        grid-column: 1 / 3;
+        grid-row: 1 / 6;
+    }
+    div.tours-intro-copy {
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+}
