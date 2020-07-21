@@ -81,3 +81,9 @@ section.reservation-box {
         grid-row: 1 / 2;
     }
 }
+/*-----------TOURS PAGE-------------------*/
+section.tours-intro {
+    div.tours-intro-copy p {
+        column-count: 2; 
+    }
+}
