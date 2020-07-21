@@ -179,18 +179,20 @@ if (pageID == 'reservationpage') {
         };
         var pickupDate = new Date(document.getElementById('pickup_date').value).getDate() + 1;
         var returnDate = new Date(document.getElementById('return_date').value).getDate() + 1;
-        if (pickupDate > returnDate) {
-            alert("Pickup date must be before return date.");
+        var rentalDays = returnDate - pickupDate;
+       if (pickupDate > returnDate) {
+            alert('Pickup date must be before return date.');
         }
         else {
-            var rentalDays = returnDate - pickupDate;
-                document.getElementById('rental_days').innerHTML = rentalDays + 1; 
-            }
+            document.getElementById('rental_days').innerHTML = `x${rentalDays}`;
+        }
+        var totalCost = price * rentalDays;
+        document.getElementById('totalCost').innerHTML = `$${totalCost.toFixed(2)}`;
     }
 }
 
 //CONFIRMATION PAGE
 if (pageID == 'confirmationpage') {
-    var confirmationNo = Math.random().toString(36).replace(/[^A-Za-z0-9]+/g, '').substr(0, 10);
+    var confirmationNo = Math.random().toString(36).replace(/[^a-z0-9]+/g, '').substr(0, 10);
     document.getElementById('confirmation_number').innerHTML = confirmationNo;
 }
