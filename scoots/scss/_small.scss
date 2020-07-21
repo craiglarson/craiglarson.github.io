@@ -128,25 +128,21 @@ div.homepage-intro {
     section.homepage-intro-cta a {
         text-decoration: none;
     }
-    section.homepage-intro-cta button {
+    section.homepage-intro-cta a {
         display: block;
         margin: .5em auto;
-        background-color: $red;
-        border: none;
-        font-family: $headline;
-        color: #fff;
-        font-size: 1.25em;
-        border-radius: 5px;
-        padding: 0;
-    }
-    section.homepage-intro-cta button a {
-        display: block;
+        padding: 1em .5em;
         text-align: center;
         text-decoration: none;
+        background-color: $red;
+        border-radius: 5px;
         color: #fff;
-        padding: .5em 1em;
+        font-family: $headline;
+        font-size: 1.1em;
+        width: 70%;
+        max-width: 20em;
     }
-    section.homepage-intro-cta button:hover {
+    section.homepage-intro-cta a:hover {
         cursor: pointer;
         background-color: $oceanBlue;
     }
@@ -222,25 +218,21 @@ section.homepage-rental-info {
         max-width: 300px;
         border-radius: 5px;
     }
-    button {
-        display: block;
-        margin: 0 auto;
-        background-color: $red;
-        border: none;
-        color: #fff;
-        padding: 0;
-        font-size: 1.5em;
-        font-family: $headline;
-        border-radius: 5px;
-    }
-    button a {
-        display: block;
-        text-align: center;
-        color: #fff;
+    a {
         text-decoration: none;
-        padding: .5em 1em;
+        background-color: $red;
+        font-family: $headline;
+        margin: 0 auto;
+        padding: 1em .5em;
+        font-size: 1.1em;
+        color: #fff;
+        border-radius: 5px;
+        display: block;
+        width: 75%;
+        max-width: 20em;
+        text-align: center;
     }
-    button:hover {
+    a:hover {
         background-color: $oceanBlue;
         cursor: pointer;
     }

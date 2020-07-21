@@ -147,25 +147,21 @@ div.homepage-intro section.homepage-intro-cta p {
 div.homepage-intro section.homepage-intro-cta a {
   text-decoration: none;
 }
-div.homepage-intro section.homepage-intro-cta button {
+div.homepage-intro section.homepage-intro-cta a {
   display: block;
   margin: .5em auto;
-  background-color: #FE7450;
-  border: none;
-  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
-  color: #fff;
-  font-size: 1.25em;
-  border-radius: 5px;
-  padding: 0;
-}
-div.homepage-intro section.homepage-intro-cta button a {
-  display: block;
+  padding: 1em .5em;
   text-align: center;
   text-decoration: none;
+  background-color: #FE7450;
+  border-radius: 5px;
   color: #fff;
-  padding: .5em 1em;
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  font-size: 1.1em;
+  width: 70%;
+  max-width: 20em;
 }
-div.homepage-intro section.homepage-intro-cta button:hover {
+div.homepage-intro section.homepage-intro-cta a:hover {
   cursor: pointer;
   background-color: #21A4B9;
 }
@@ -239,25 +235,21 @@ section.homepage-rental-info div.homepage-rental-type div.homepage-rental-cards 
   max-width: 300px;
   border-radius: 5px;
 }
-section.homepage-rental-info button {
-  display: block;
-  margin: 0 auto;
-  background-color: #FE7450;
-  border: none;
-  color: #fff;
-  padding: 0;
-  font-size: 1.5em;
-  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
-  border-radius: 5px;
-}
-section.homepage-rental-info button a {
-  display: block;
-  text-align: center;
-  color: #fff;
+section.homepage-rental-info a {
   text-decoration: none;
-  padding: .5em 1em;
+  background-color: #FE7450;
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  margin: 0 auto;
+  padding: 1em .5em;
+  font-size: 1.1em;
+  color: #fff;
+  border-radius: 5px;
+  display: block;
+  width: 75%;
+  max-width: 20em;
+  text-align: center;
 }
-section.homepage-rental-info button:hover {
+section.homepage-rental-info a:hover {
   background-color: #21A4B9;
   cursor: pointer;
 }
