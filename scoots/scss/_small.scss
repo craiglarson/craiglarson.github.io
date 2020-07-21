@@ -673,7 +673,7 @@ section.tours-things-to-do {
         background-color: $aqua;
         border: 2px solid $oceanBlue;
         border-radius: 5px;
-        margin: 1em;
+        margin: 1.25em 1em;
         padding: 1em;
         color: $charcoal;
         font-family: $roboto;
@@ -687,6 +687,6 @@ section.tours-things-to-do {
     }
     div.things-to-do-cards h3 {
         font-family: $headline;
-        color: $oceanBlue;
+        color: $red;
     }
 }
