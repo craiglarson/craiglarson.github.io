@@ -644,13 +644,14 @@ section.more-information {
 section.tours-intro {
     picture img {
         width: 100%;
+        border-radius: 0 0 5px 5px;
     }
     div.tours-intro-copy {
         background-color: $yellow;
         border: 2px solid $red;
         border-radius: 5px;
         padding: 1em;
-        margin: 1em;
+        margin: .5em 0;
     }
     div.tours-intro-copy h2 {
         color: $red;
