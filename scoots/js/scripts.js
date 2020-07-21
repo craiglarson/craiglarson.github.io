@@ -184,7 +184,7 @@ if (pageID == 'reservationpage') {
         }
         else {
             var rentalDays = returnDate - pickupDate;
-                document.getElementById('rental_days').innerHTML = rentalDays + 1;
+                document.getElementById('rental_days').innerHTML = rentalDays + 1; 
             }
     }
 }
