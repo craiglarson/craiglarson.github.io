@@ -653,6 +653,9 @@ section.more-information img {
 }
 
 /*--------------TOURS PAGE-----------------*/
+section.tours-intro picture img {
+  width: 100%;
+}
 section.tours-intro div.tours-intro-copy {
   background-color: #FEF3C3;
   border: 2px solid #FE7450;
