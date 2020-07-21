@@ -535,6 +535,7 @@ form {
         display: block;
         color: $charcoal;
     }
+    
     fieldset div.form-opt-ins {
         color: $charcoal;
     }
@@ -549,6 +550,7 @@ form {
         width: 96%;
         max-width: 20em;
         font-size: 1.1em;
+        font-family: $headline;
     }
     input.submitBTN:hover {
         background-color: $oceanBlue;

@@ -723,6 +723,7 @@ form input.submitBTN {
   width: 96%;
   max-width: 20em;
   font-size: 1.1em;
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
 }
 form input.submitBTN:hover {
   background-color: #21A4B9;
