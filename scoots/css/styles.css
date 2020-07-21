@@ -601,6 +601,11 @@ section.contact-FAQ p {
 section.contactPage-form {
   margin: 1em;
 }
+section.contactPage-form h2 {
+  text-align: center;
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  color: #FE7450;
+}
 section.contactPage-form form {
   width: 80%;
   max-width: 500px;

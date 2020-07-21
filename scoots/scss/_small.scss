@@ -426,6 +426,11 @@ section.contact-FAQ {
 //CONTACT FORM
 section.contactPage-form {
     margin: 1em;
+    h2 {
+        text-align: center;
+        font-family: $headline;
+        color: $red;
+    }
     form {
         width: 80%;
         max-width: 500px;
