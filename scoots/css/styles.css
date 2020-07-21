@@ -239,22 +239,26 @@ section.homepage-rental-info div.homepage-rental-type div.homepage-rental-cards 
   max-width: 300px;
   border-radius: 5px;
 }
-section.homepage-rental-info a {
-  text-decoration: none;
-}
-section.homepage-rental-info a button {
+section.homepage-rental-info button {
   display: block;
   margin: 0 auto;
   background-color: #FE7450;
   border: none;
   color: #fff;
-  padding: 2% 10%;
+  padding: 0;
   font-size: 1.5em;
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
   border-radius: 5px;
 }
-section.homepage-rental-info a button:hover {
-  background-color: #A22101;
+section.homepage-rental-info button a {
+  display: block;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  padding: .5em 1em;
+}
+section.homepage-rental-info button:hover {
+  background-color: #21A4B9;
   cursor: pointer;
 }
 

@@ -222,22 +222,26 @@ section.homepage-rental-info {
         max-width: 300px;
         border-radius: 5px;
     }
-    a {
-        text-decoration: none;
-    }
-    a button {
+    button {
         display: block;
         margin: 0 auto;
         background-color: $red;
         border: none;
         color: #fff;
-        padding: 2% 10%;
+        padding: 0;
         font-size: 1.5em;
         font-family: $headline;
         border-radius: 5px;
     }
-    a button:hover {
-        background-color: #A22101;
+    button a {
+        display: block;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        padding: .5em 1em;
+    }
+    button:hover {
+        background-color: $oceanBlue;
         cursor: pointer;
     }
 } //END OF RENTAL TYPES
