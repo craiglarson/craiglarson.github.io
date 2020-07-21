@@ -652,6 +652,20 @@ section.more-information img {
   max-width: 400px;
 }
 
+/*--------------TOURS PAGE-----------------*/
+section.tours-intro div.tours-intro-copy {
+  background-color: #FEF3C3;
+  border: 2px solid #FE7450;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+}
+section.tours-intro div.tours-intro-copy h2 {
+  color: #FE7450;
+  font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  text-align: center;
+}
+
 /*------------MEDIUM CSS--------------*/
 @media only screen and (min-width: 560px) {
   /*-----------NAVIGATION------------*/

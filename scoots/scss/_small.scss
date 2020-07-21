@@ -639,3 +639,19 @@ section.more-information {
         max-width: 400px;
     }
 }
+
+/*--------------TOURS PAGE-----------------*/
+section.tours-intro {
+    div.tours-intro-copy {
+        background-color: $yellow;
+        border: 2px solid $red;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em;
+    }
+    div.tours-intro-copy h2 {
+        color: $red;
+        font-family: $headline;
+        text-align: center;
+    }
+}
