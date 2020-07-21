@@ -615,6 +615,11 @@ section.thank-you-section h3 {
   color: #425561;
   text-align: center;
 }
+section.thank-you-section h3 span {
+  font-weight: bold;
+  font-size: 1.25em;
+  font-variant-caps: normal;
+}
 
 section.more-information {
   background-color: #FEF3C3;

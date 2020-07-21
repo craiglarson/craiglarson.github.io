@@ -188,3 +188,9 @@ if (pageID == 'reservationpage') {
             }
     }
 }
+
+//CONFIRMATION PAGE
+if (pageID == 'confirmationpage') {
+    var confirmationNo = Math.random().toString(36).replace(/[^A-Za-z0-9]+/g, '').substr(0, 10);
+    document.getElementById('confirmation_number').innerHTML = confirmationNo;
+}

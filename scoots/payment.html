@@ -30,11 +30,11 @@
     <main class="confirmation-main">
         <section class="reservation-box">
             <div class="reservation-form">
-            <form method="GET" action="confirmation-thank-you.html">
+            <form method="GET" action="confirmation.html">
                 <fieldset>
                     <legend>Payment Information</legend>
                     <label class="top" for="card_name">Name on Card <input type="text" name="card_name" id="card_name" required pattern="[A-Za-z\s]{5,}"></label>
-                    <label class="top" for="card_number"> Card Number <input type="number" name="card_number" id="card_number" required pattern="{16,}"></label>
+                    <label class="top" for="card_number"> Card Number <input type="number" name="card_number" id="card_number" required pattern="[0-9]{16,}"></label>
                     <label class="top" for="expiration_month">Exp. Month 
                         <select name="expiration_month" id="expiration_month" required>
                             <option value="" disabled selected>Month</option>
@@ -68,7 +68,7 @@
                             <option value="11">2030</option>
                         </select>  
                     </label>
-                    <label class="top" for="CSV_no">CSV No. <input type="number" name="CSV_no" id="CSV_no" required></label>
+                    <label class="top" for="CSV_no">CSV No. <input type="number" name="CSV_no" id="CSV_no" required pattern="[0-9]{3,}"></label>
                 </fieldset>
                 <input type="submit" name="submit" value="Reserve Your Adventure" class="submitBTN">
             </form>
