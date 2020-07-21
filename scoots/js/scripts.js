@@ -167,22 +167,24 @@ fetch(rentalURL)
 //RESERVATION PAGE
 if (pageID == 'reservationpage') {
     
-    function rentalType() {
+    function totalCalculation() {
         var rentalValue = document.getElementById('rental_type').value;
         var rentalType = ['Honda Metro Scooter', 'Honda Dio Scooter', 'Honda PCX150 Scooter', 'Honda Pioneer ATV', 'Jeep Wrangler 4-door', 'Jeep Wrangler 2-door'];
         var rentalPrice = [30, 40, 50, 70, 100, 85];
-        var price = rentalPrice[rentalValue].toFixed(2);
+        var price = rentalPrice[rentalValue];
         var type = rentalType[rentalValue];    
+        if (price > 0) {
         document.getElementById('reservationType').innerHTML = `${type}`;
-        document.getElementById('reservationTotal').innerHTML = `$${price}`;
-    }
-
-    function pickupDate() {
+        document.getElementById('reservationTotal').innerHTML = `$${price.toFixed(2)}`;
+        };
         var pickupDate = new Date(document.getElementById('pickup_date').value).getDate() + 1;
-        console.log(pickupDate);
-    }
-    function writeTotals() {
-        console.log(type);
-       
+        var returnDate = new Date(document.getElementById('return_date').value).getDate() + 1;
+        if (pickupDate > returnDate) {
+            alert("Pickup date must be before return date.");
+        }
+        else {
+            var rentalDays = returnDate - pickupDate;
+                document.getElementById('rental_days').innerHTML = rentalDays + 1;
+            }
     }
 }

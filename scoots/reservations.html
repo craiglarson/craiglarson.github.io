@@ -44,7 +44,7 @@
                     <fieldset>
                         <legend>Rental Information</legend>
                         <label class="top" for="rental_type">Rental Type: 
-                            <select name="rental_type" id="rental_type" onchange="rentalType(this.vaule)" required>
+                            <select name="rental_type" id="rental_type" onchange="totalCalculation(this.vaule)" required>
                                 <option value="" disabled selected>Select Rental Type</option>
                                 <option value="0">Honda Metro Scooter</option>
                                 <option value="1">Honda Dio Scooter</option>
@@ -54,8 +54,8 @@
                                 <option value="5">Jeep Wrangler - 2 Door</option>
                             </select>
                         </label>    
-                        <label class="top" for="pickup_date">Pickup Date: <input type="date" name="pickup_date" id="pickup_date" value="" required onchange="pickupDate(this.value)"></label>
-                        <label class="top" for="return_date">Return Date: <input type="date" name="return_date" id="return_date" value="" required></label>
+                        <label class="top" for="pickup_date">Pickup Date: <input type="date" name="pickup_date" id="pickup_date" value="" required onchange="totalCalculation(this.value)"></label>
+                        <label class="top" for="return_date">Return Date: <input type="date" name="return_date" id="return_date" value="" required onchange="totalCalculation(this.value)"></label>
                         <label class="top" for="pickup_time">Pickup Time: 
                             <select name="pickup_time" id="pickup_time" required>
                                 <option value="" disabled selected>Pickup Time</option>
@@ -111,6 +111,7 @@
                     </fieldset>
                     <p>Rental Type: <span id="reservationType"></span></p>
                     <p>Rental Price: <span id="reservationTotal"></span></p>
+                    <p># of Days: <span id="rental_days"></span></p>
                     <input type="submit" name="submit" value="Reserve Your Adventure" class="submitBTN">
                 </form>
             </div>
