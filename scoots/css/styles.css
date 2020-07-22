@@ -161,6 +161,10 @@ template {
 /*# sourceMappingURL=normalize.min.css.map */
 /*------COLORS-------*/
 /*-------FONTS-----------*/
+* {
+  box-sizing: border-box;
+}
+
 #pageID {
   display: none;
 }
@@ -609,7 +613,7 @@ section.contactPage-form h2 {
   color: #FE4C20;
 }
 section.contactPage-form form {
-  width: 80%;
+  width: 100%;
   max-width: 500px;
   background-color: #D7FEFB;
   border: 2px solid #FE4C20;
@@ -637,8 +641,7 @@ section.contactPage-form form fieldset label input, section.contactPage-form for
   display: block;
   font-size: 1em;
   padding: 0.75em;
-  width: 80%;
-  max-width: 20em;
+  width: 100%;
   border: 1px solid #425561;
   border-radius: 5px;
 }
@@ -672,7 +675,7 @@ form {
   padding: 1.5em;
   border-radius: 5px;
   margin: 1em auto;
-  width: 80%;
+  width: 100%;
   max-width: 500px;
 }
 form h3 {
@@ -705,8 +708,7 @@ form fieldset label.top input, form fieldset label.top select {
   border: 1px solid #425561;
   border-radius: 5px;
   padding: 0.75em;
-  width: 80%;
-  max-width: 20em;
+  width: 100%;
   color: #425561;
 }
 form fieldset label.sbs {
@@ -721,8 +723,7 @@ form input.submitBTN {
   padding: .75em 1.5em;
   margin-bottom: 2em;
   margin-top: 1em;
-  width: 96%;
-  max-width: 20em;
+  width: 100%;
   font-size: 1.1em;
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
 }
