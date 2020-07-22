@@ -167,7 +167,7 @@ template {
 
 /*-------HEADER-------------------*/
 header {
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -199,7 +199,7 @@ header div h4 {
 
 /*--------NAVIGATION---------------*/
 nav {
-  background-color: #21A4B9;
+  background-color: #187B8B;
   font-family: "Roboto", Arial, sans-serif;
 }
 nav button {
@@ -233,12 +233,12 @@ nav ul li a.active {
 }
 nav ul li a:hover {
   background-color: #D7FEFB;
-  color: #21A4B9;
+  color: #187B8B;
 }
 
 /*-----------FOOOTER-------------*/
 footer {
-  background-color: #21A4B9;
+  background-color: #187B8B;
   text-align: center;
   margin: 2% auto 0 auto;
   padding: 1em;
@@ -287,7 +287,7 @@ div.homepage-intro section.homepage-intro-cta {
   position: absolute;
   width: 80%;
   max-width: 400px;
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   padding: .75em;
   top: 5%;
   left: 5%;
@@ -324,11 +324,11 @@ div.homepage-intro section.homepage-intro-cta a {
 }
 div.homepage-intro section.homepage-intro-cta a:hover {
   cursor: pointer;
-  background-color: #21A4B9;
+  background-color: #187B8B;
 }
 
 section.homepage-cozumel-info {
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   border: 2px double #FE7450;
   border-radius: 5px;
   padding: 1em;
@@ -362,7 +362,7 @@ section.homepage-cozumel-info div.homepage-cozumel-img picture img {
 }
 
 section.homepage-rental-info {
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   border: 2px solid #FE7450;
   border-radius: 5px;
   margin: .75em 0;
@@ -411,12 +411,12 @@ section.homepage-rental-info a {
   text-align: center;
 }
 section.homepage-rental-info a:hover {
-  background-color: #21A4B9;
+  background-color: #187B8B;
   cursor: pointer;
 }
 
 section.cozumel-weather {
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   border: 2px solid #FE7450;
   border-radius: 5px;
 }
@@ -447,7 +447,7 @@ div.currentWeather div.currentWeather-card {
   margin: 5% auto;
 }
 div.currentWeather div.currentWeather-card h4 {
-  background-color: #21A4B9;
+  background-color: #187B8B;
   color: #fff;
   margin: 0;
   text-align: center;
@@ -496,7 +496,7 @@ div.five-day-forecast div.five-day-container div.five-day-card {
   background-color: #fff;
 }
 div.five-day-forecast div.five-day-container div.five-day-card h4 {
-  background-color: #21A4B9;
+  background-color: #187B8B;
   color: #fff;
   margin: 0;
   padding: 1em 1.35em;
@@ -519,7 +519,7 @@ section.rental-cards div.rentalType-card {
   border: 2px solid #FE7450;
   border-radius: 5px;
   margin: 1em;
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   padding: 1em;
 }
 section.rental-cards div.rentalType-card h3 {
@@ -555,7 +555,7 @@ section.contact-locations h2, section.contact-locations h3 {
   color: #FE7450;
 }
 section.contact-locations div.scoots-locations {
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   border: 2px solid #FE7450;
   border-radius: 5px;
   padding: .25em 1em;
@@ -576,7 +576,7 @@ section.contact-locations div.scoots-locations iframe {
 }
 
 section.contact-FAQ {
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   border: 2px solid #FE7450;
   border-radius: 5px;
   padding: 1em 2em;
@@ -589,7 +589,7 @@ section.contact-FAQ h2 {
   color: #FE7450;
 }
 section.contact-FAQ h3 {
-  color: #21A4B9;
+  color: #187B8B;
   margin-top: 1.5em;
   margin-bottom: .25em;
 }
@@ -653,7 +653,7 @@ section.contactPage-form form fieldset input.contactPageSubmitBtn {
   font-size: 1em;
 }
 section.contactPage-form form fieldset input.contactPageSubmitBtn:hover {
-  background-color: #21A4B9;
+  background-color: #187B8B;
   cursor: pointer;
   color: #D7FEFB;
 }
@@ -666,7 +666,7 @@ main.reservations-main h2 {
 }
 
 form {
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   padding: 1.5em;
   border-radius: 5px;
   margin: 1em auto;
@@ -693,7 +693,7 @@ form fieldset legend {
 form fieldset label.top, form fieldset div {
   display: block;
   padding-top: 1em;
-  color: #21A4B9;
+  color: #187B8B;
 }
 form fieldset label.top input, form fieldset label.top select {
   display: block;
@@ -726,7 +726,7 @@ form input.submitBTN {
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
 }
 form input.submitBTN:hover {
-  background-color: #21A4B9;
+  background-color: #187B8B;
   color: #D7FEFB;
   cursor: pointer;
 }
@@ -796,7 +796,7 @@ section.thank-you-section h3 span {
 }
 
 section.more-information {
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   border: 2px solid #FE7450;
   padding: 1em;
   border-radius: 5px;
@@ -837,7 +837,7 @@ section.tours-intro picture img {
   border-radius: 0 0 5px 5px;
 }
 section.tours-intro div.tours-intro-copy {
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   border: 2px solid #FE7450;
   border-radius: 5px;
   padding: 1em;
@@ -850,7 +850,7 @@ section.tours-intro div.tours-intro-copy h2 {
 }
 
 section.tours-things-to-do {
-  background-color: #FEF3C3;
+  background-color: #FFFBEB;
   padding: 1em;
   border: 2px solid #FE7450;
   border-radius: 5px;
@@ -862,7 +862,7 @@ section.tours-things-to-do h2 {
 }
 section.tours-things-to-do div.things-to-do-cards {
   background-color: #D7FEFB;
-  border: 2px solid #21A4B9;
+  border: 2px solid #187B8B;
   border-radius: 5px;
   margin: 1em 1em;
   padding: 1em;
@@ -909,7 +909,7 @@ div.reservation-CTA-box a {
   padding: 1em;
 }
 div.reservation-CTA-box a:hover {
-  background-color: #21A4B9;
+  background-color: #187B8B;
 }
 
 /*------------MEDIUM CSS--------------*/
