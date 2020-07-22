@@ -164,32 +164,6 @@ fetch(rentalURL)
     });
 };
 
-//RESERVATION PAGE
-if (pageID == 'reservationpage') {
-    
-    function totalCalculation() {
-        var rentalValue = document.getElementById('rental_type').value;
-        var rentalType = ['Honda Metro Scooter', 'Honda Dio Scooter', 'Honda PCX150 Scooter', 'Honda Pioneer ATV', 'Jeep Wrangler 4-door', 'Jeep Wrangler 2-door'];
-        var rentalPrice = [30, 40, 50, 70, 100, 85];
-        var price = rentalPrice[rentalValue];
-        var type = rentalType[rentalValue];    
-        if (price > 0) {
-        document.getElementById('reservationType').innerHTML = `${type}`;
-        document.getElementById('reservationTotal').innerHTML = `$${price.toFixed(2)}`;
-        };
-        var pickupDate = new Date(document.getElementById('pickup_date').value).getDate() + 1;
-        var returnDate = new Date(document.getElementById('return_date').value).getDate() + 1;
-        var rentalDays = returnDate - pickupDate;
-       if (pickupDate > returnDate) {
-            alert('Pickup date must be before return date.');
-        }
-        else {
-            document.getElementById('rental_days').innerHTML = `x${rentalDays}`;
-        }
-        var totalCost = price * rentalDays;
-        document.getElementById('totalCost').innerHTML = `$${totalCost.toFixed(2)}`;
-    }
-}
 
 //CONFIRMATION PAGE
 if (pageID == 'confirmationpage') {
