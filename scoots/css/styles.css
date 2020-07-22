@@ -696,6 +696,7 @@ form fieldset label.top, form fieldset div {
   display: block;
   padding-top: 1em;
   color: #187B8B;
+  font-weight: bold;
 }
 form fieldset label.top input, form fieldset label.top select {
   display: block;
@@ -709,10 +710,7 @@ form fieldset label.top input, form fieldset label.top select {
 }
 form fieldset label.sbs {
   display: block;
-  color: #425561;
-}
-form fieldset div.form-opt-ins {
-  color: #425561;
+  color: #187B8B;
 }
 form input.submitBTN {
   border: none;

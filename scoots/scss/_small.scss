@@ -522,6 +522,7 @@ form {
         display: block;
         padding-top: 1em;
         color: $oceanBlue;
+        font-weight: bold;
     }
     fieldset label.top input, fieldset label.top select {
         display: block;
@@ -535,12 +536,9 @@ form {
     }
     fieldset label.sbs {
         display: block;
-        color: $charcoal;
+        color: $oceanBlue;
     }
     
-    fieldset div.form-opt-ins {
-        color: $charcoal;
-    }
     input.submitBTN {
         border: none;
         background-color: $red;
