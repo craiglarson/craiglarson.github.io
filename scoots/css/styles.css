@@ -695,7 +695,7 @@ form fieldset legend {
 form fieldset label.top, form fieldset div {
   display: block;
   padding-top: 1em;
-  color: #187B8B;
+  color: #425561;
   font-weight: bold;
 }
 form fieldset label.top input, form fieldset label.top select {
@@ -710,7 +710,7 @@ form fieldset label.top input, form fieldset label.top select {
 }
 form fieldset label.sbs {
   display: block;
-  color: #187B8B;
+  color: #425561;
 }
 form input.submitBTN {
   border: none;
