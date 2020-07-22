@@ -224,12 +224,13 @@ section.homepage-rental-info {
         font-family: $headline;
         margin: 0 auto;
         padding: 1em .5em;
-        font-size: 1.1em;
+        font-size: 1.25em;
+        font-weight: bold;
         color: #fff;
         border-radius: 5px;
         display: block;
         width: 75%;
-        max-width: 20em;
+        max-width: 250px;
         text-align: center;
     }
     a:hover {
