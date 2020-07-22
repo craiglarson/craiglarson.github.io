@@ -902,6 +902,8 @@ div.reservation-CTA-box a {
   background-color: #FE4C20;
   color: #fff;
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
   border-radius: 5px;
   display: block;
   text-align: center;
