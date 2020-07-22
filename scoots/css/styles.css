@@ -319,9 +319,9 @@ div.homepage-intro section.homepage-intro-cta a {
   border-radius: 5px;
   color: #fff;
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
-  font-size: 1.1em;
+  font-size: 1.25em;
   width: 70%;
-  max-width: 20em;
+  max-width: 25em;
 }
 div.homepage-intro section.homepage-intro-cta a:hover {
   cursor: pointer;
