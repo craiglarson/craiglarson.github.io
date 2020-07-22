@@ -687,6 +687,7 @@ form fieldset {
 }
 form fieldset legend {
   color: #FE4C20;
+  font-size: 1.25em;
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
   font-weight: bold;
   margin: 0 1em;
