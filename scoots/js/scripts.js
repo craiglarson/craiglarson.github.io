@@ -61,7 +61,6 @@ fetch(fiveDayURL)
             day.innerHTML = dayOfWeek;
             image.setAttribute('src', imageSRC);
             image.setAttribute('alt', i.weather[0].description);
-            image.setAttribute('width', '75');
             temp.innerHTML = `${Math.round(temperature)}&deg;F`;
 
             card.appendChild(day);
