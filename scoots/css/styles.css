@@ -167,7 +167,7 @@ template {
 
 /*-------HEADER-------------------*/
 header {
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -287,7 +287,7 @@ div.homepage-intro section.homepage-intro-cta {
   position: absolute;
   width: 80%;
   max-width: 400px;
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   padding: .75em;
   top: 5%;
   left: 5%;
@@ -328,7 +328,7 @@ div.homepage-intro section.homepage-intro-cta a:hover {
 }
 
 section.homepage-cozumel-info {
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   border: 2px double #FE4C20;
   border-radius: 5px;
   padding: 1em;
@@ -362,7 +362,7 @@ section.homepage-cozumel-info div.homepage-cozumel-img picture img {
 }
 
 section.homepage-rental-info {
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   border: 2px solid #FE4C20;
   border-radius: 5px;
   margin: .75em 0;
@@ -416,7 +416,7 @@ section.homepage-rental-info a:hover {
 }
 
 section.cozumel-weather {
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   border: 2px solid #FE4C20;
   border-radius: 5px;
 }
@@ -519,7 +519,7 @@ section.rental-cards div.rentalType-card {
   border: 2px solid #FE4C20;
   border-radius: 5px;
   margin: 1em;
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   padding: 1em;
 }
 section.rental-cards div.rentalType-card h3 {
@@ -555,7 +555,7 @@ section.contact-locations h2, section.contact-locations h3 {
   color: #FE4C20;
 }
 section.contact-locations div.scoots-locations {
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   border: 2px solid #FE4C20;
   border-radius: 5px;
   padding: .25em 1em;
@@ -576,7 +576,7 @@ section.contact-locations div.scoots-locations iframe {
 }
 
 section.contact-FAQ {
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   border: 2px solid #FE4C20;
   border-radius: 5px;
   padding: 1em 2em;
@@ -666,7 +666,7 @@ main.reservations-main h2 {
 }
 
 form {
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   padding: 1.5em;
   border-radius: 5px;
   margin: 1em auto;
@@ -796,7 +796,7 @@ section.thank-you-section h3 span {
 }
 
 section.more-information {
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   border: 2px solid #FE4C20;
   padding: 1em;
   border-radius: 5px;
@@ -837,7 +837,7 @@ section.tours-intro picture img {
   border-radius: 0 0 5px 5px;
 }
 section.tours-intro div.tours-intro-copy {
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   border: 2px solid #FE4C20;
   border-radius: 5px;
   padding: 1em;
@@ -850,7 +850,7 @@ section.tours-intro div.tours-intro-copy h2 {
 }
 
 section.tours-things-to-do {
-  background-color: #FFFBEB;
+  background-color: #FEF3C3;
   padding: 1em;
   border: 2px solid #FE4C20;
   border-radius: 5px;
