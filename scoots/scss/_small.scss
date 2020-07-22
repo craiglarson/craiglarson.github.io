@@ -706,6 +706,9 @@ section.tours-things-to-do {
         max-width: 350px;
         border-radius: 5px;
     }
+    div.things-to-do-cards p {
+        padding: 0 1em;
+    }
     div.things-to-do-cards h3 {
         font-family: $headline;
         color: $red;

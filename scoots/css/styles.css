@@ -876,6 +876,9 @@ section.tours-things-to-do div.things-to-do-cards img {
   max-width: 350px;
   border-radius: 5px;
 }
+section.tours-things-to-do div.things-to-do-cards p {
+  padding: 0 1em;
+}
 section.tours-things-to-do div.things-to-do-cards h3 {
   font-family: "Architects Daughter", "Roboto", Arial, sans-serif;
   color: #FE7450;
