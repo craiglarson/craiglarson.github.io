@@ -199,3 +199,18 @@ section.tours-things-to-do {
         grid-row: 2 / 3;
     }
 }
+
+//Reservation CTA Box
+div.reservation-CTA-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    a {
+        margin-right: 2em;
+    }
+    h2 {
+        margin-left: 2em;
+    }
+}

@@ -714,3 +714,32 @@ section.tours-things-to-do {
         color: $red;
     }
 }
+
+//Reservation Box
+div.reservation-CTA-box {
+    background-color: $aqua;
+    border: 2px solid $red;
+    border-radius: 5px;
+    h2 {
+        font-family: $headline;
+        color: $red;
+        text-align: center;
+        margin: 1em;
+    }
+    a {
+        text-decoration: none;
+        background-color: $red;
+        color: #fff;
+        font-family: $headline;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+        width: 80%;
+        max-width: 250px;
+        margin: 1em auto;
+        padding: 1em;
+    }
+    a:hover {
+        background-color: $oceanBlue;
+    }
+}
