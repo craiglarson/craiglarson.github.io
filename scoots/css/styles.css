@@ -626,7 +626,7 @@ section.contactPage-form form fieldset {
   border-radius: 5px;
 }
 section.contactPage-form form fieldset legend {
-  color: #FE4C20;
+  color: #F43201;
   font-weight: bold;
   margin: 0 1em;
   padding: 0 .5em;
@@ -634,7 +634,8 @@ section.contactPage-form form fieldset legend {
 section.contactPage-form form fieldset label {
   display: block;
   padding-top: 1em;
-  color: #FE4C20;
+  color: #F43201;
+  font-weight: bold;
 }
 section.contactPage-form form fieldset label input, section.contactPage-form form fieldset label textarea {
   display: block;
